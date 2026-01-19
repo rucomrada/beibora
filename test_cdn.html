@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CDN Diagnostic Tool</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .test-case { margin-bottom: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 8px; }
+        .status { font-weight: bold; margin-left: 10px; }
+        .success { color: green; }
+        .error { color: red; }
+        img { max-width: 100px; display: block; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>CDN Connection Test</h1>
+    <p>This tool tries to load <strong>Avena Vegetable Oil 2L.jpg</strong> from various CDN paths to find the correct one.</p>
+    <div id="results"></div>
+
+    <script>
+        const repo = 'rucomrada/beibora';
+        const imagePath = 'products/section_a/Avena Vegetable Oil 2L.jpg';
+        const filename = 'Avena Vegetable Oil 2L.jpg';
+        
+        const testCases = [
+            {
+                name: "Standard Setup (Main Branch)",
+                url: `https://cdn.jsdelivr.net/gh/${repo}@main/${imagePath}`
+            },
+            {
+                name: "Standard Setup (Master Branch)",
+                url: `https://cdn.jsdelivr.net/gh/${repo}@master/${imagePath}`
+            },
+            {
+                name: "Root Upload (No 'products' folder)",
+                url: `https://cdn.jsdelivr.net/gh/${repo}@main/section_a/${filename}`
+            },
+            {
+                name: "Full Path Upload (Includes 'asset' folder)",
+                url: `https://cdn.jsdelivr.net/gh/${repo}@main/asset/${imagePath}`
+            }
+        ];
+
+        const resultsDiv = document.getElementById('results');
+
+        testCases.forEach(test => {
+            const div = document.createElement('div');
+            div.className = 'test-case';
+            div.innerHTML = `<strong>${test.name}</strong><br><a href="${test.url}" target="_blank">${test.url}</a><br>Status: <span class="status">Testing...</span>`;
+            
+            const img = new Image();
+            img.onload = () => {
+                div.querySelector('.status').innerHTML = '✅ SUCCESS';
+                div.querySelector('.status').className = 'status success';
+                div.appendChild(img);
+            };
+            img.onerror = () => {
+                div.querySelector('.status').innerHTML = '❌ FAILED';
+                div.querySelector('.status').className = 'status error';
+            };
+            
+            // Encode spaces for URL
+            img.src = test.url.replace(/ /g, '%20');
+            div.appendChild(img);
+            resultsDiv.appendChild(div);
+        });
+    </script>
+</body>
+</html>

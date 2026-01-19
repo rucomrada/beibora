@@ -146,8 +146,8 @@ include 'header.php';
             <a href="contact.php" class="px-8 py-4 bg-brand-orange text-white font-bold rounded-full shadow-xl hover:bg-orange-600 transition-colors flex items-center justify-center">
                 <i class="fas fa-headset mr-3"></i> Talk to Sales
             </a>
-            <a href="#" class="px-8 py-4 bg-white text-brand-green font-bold rounded-full shadow-xl hover:bg-gray-100 transition-colors flex items-center justify-center">
-                <i class="fas fa-file-download mr-3"></i> Download Catalog
+            <a href="testimonials.php" class="px-8 py-4 bg-white text-brand-green font-bold rounded-full shadow-xl hover:bg-gray-100 transition-colors flex items-center justify-center">
+                <i class="fas fa-star mr-3 text-yellow-500"></i> See Success Stories
             </a>
         </div>
     </div>
@@ -313,7 +313,6 @@ function renderGrid() {
         let imageUrl = product.image;
         if (cdnBaseUrl && !imageUrl.startsWith('http')) {
             // Remove leading slash if exists to prevent double slash with base
-            // But usually paths in JSON are relative like "asset/..."
             imageUrl = cdnBaseUrl + imageUrl.replace(/^\//, '');
         }
 
