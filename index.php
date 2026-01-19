@@ -1,972 +1,340 @@
- <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BEI BORA - Home</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-<link rel="stylesheet" href="styles.css">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	
-	    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
- 
-<!-- Font Awesome for icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<!-- AOS Library for scroll animations -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-</head>
-<body>
+<?php include 'header.php'; ?>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
-  <div class="container"> <a class="navbar-brand" href="#"> <img src="asset/img/bei-bora-logo.jpg" alt="BEI BORA Logo" width="120"> </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon text-dark"></span> </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"> <a class="nav-link" href="#home">Home</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#products">Products</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
-        <!--<li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Testimonials</a>
-                    </li>-->
-        <li class="nav-item"> <a class="nav-link" href="#blog">Blog</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
-      </ul>
+<!-- 1. Hero Section: High Impact -->
+<section id="home" class="relative min-h-screen flex items-center justify-center text-center bg-fixed bg-center bg-cover" style="background-image: linear-gradient(rgba(0, 80, 32, 0.9), rgba(0, 37, 26, 0.8)), url('asset/img/hero-background.jpg');">
+  <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+  <div class="relative z-10 px-4 max-w-6xl mx-auto pt-20">
+    <div class="inline-block px-4 py-1 mb-6 border border-brand-orange rounded-full bg-black bg-opacity-30 backdrop-filter backdrop-blur-sm animate__animated animate__fadeInDown">
+        <span class="text-brand-orange font-bold text-sm tracking-widest uppercase">Kenya's #1 FMCG Distributor</span>
+    </div>
+    <h1 class="text-5xl md:text-7xl lg:text-8xl font-heading font-extrabold text-white mb-6 animate__animated animate__fadeInDown leading-tight shadow-sm">
+      POWERING <br> <span class="text-brand-orange">RETAIL SUCCESS</span>
+    </h1>
+    <p class="text-lg md:text-2xl text-gray-200 mb-10 font-light animate__animated animate__fadeInDown tracking-wide max-w-3xl mx-auto leading-relaxed">
+      We bridge the gap between top manufacturers and your shelf. Reliable, efficient, and cost-effective distribution for wholesalers and retailers nationwide.
+    </p>
+    <div class="animate__animated animate__fadeInUp flex flex-col sm:flex-row justify-center gap-4">
+        <a href="products.php" class="px-10 py-5 bg-brand-orange text-white font-bold rounded-full hover:bg-orange-600 transition-all shadow-xl transform hover:-translate-y-1 text-lg">Browse Inventory</a>
+        <a href="#process" class="px-10 py-5 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-brand-green transition-all shadow-xl transform hover:-translate-y-1 text-lg">How We Work</a>
     </div>
   </div>
-</nav>
-
-<!-- Hero Section -->
-<section id="home" class="hero d-flex align-items-center justify-content-center text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1 class="display-3 text-white mb-4 animate__animated animate__fadeInDown">Welcome to BEI BORA</h1>
-        <p class="lead text-white mb-4 animate__animated animate__fadeInDown">Your trusted partner for quality foodstuffs and household items.</p>
-        <a href="#products" class="btn btn-primary btn-lg animate__animated animate__fadeInUp">Explore Products</a> </div>
-    </div>
+  
+  <!-- Scroll Indicator -->
+  <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <i class="fas fa-chevron-down text-white text-3xl opacity-50"></i>
   </div>
 </section>
 
-<!-- Products Section -->
-<section id="products" class="products text-center py-5">
-  <div class="container">
-    <h2 class="display-4 mb-5 animate__animated animate__fadeIn">Our Products</h2>
-    <div class="row">
-      <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
-        <div class="card shadow-sm product-ov"> <img src="asset/img/product1.jpg" class="card-img-top" alt="Product 1">
-          <div class="card-body">
-            <h5 class="card-title">OILS AND FATS</h5>
-            <p class="card-text">Edible Oils, Fats, Margarine...</p>
-            <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#productModal">Explore Products</a> </div>
+<!-- 2. Animated Stats Strip -->
+<section class="relative z-20 bg-white shadow-lg -mt-20 mx-4 md:mx-auto max-w-7xl rounded-xl overflow-hidden animate__animated animate__fadeInUp">
+    <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-gray-100">
+        <div class="p-8 text-center group hover:bg-green-50 transition-colors">
+            <i class="fas fa-truck-moving text-4xl text-brand-green mb-3 transform group-hover:scale-110 transition-transform"></i>
+            <div class="text-3xl font-bold text-gray-900">10k+</div>
+            <div class="text-xs uppercase tracking-widest text-gray-500 font-semibold">Deliveries/Year</div>
         </div>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
-        <div class="card shadow-sm product-ov"> <img src="asset/img/product2.jpg" class="card-img-top" alt="Product 2">
-          <div class="card-body">
-            <h5 class="card-title">COMMODITIES</h5>
-            <p class="card-text">Rice, Flour, Pasta...</p>
-            <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#productModal-2">Explore Products </a> </div>
+        <div class="p-8 text-center group hover:bg-green-50 transition-colors">
+            <i class="fas fa-box-open text-4xl text-brand-green mb-3 transform group-hover:scale-110 transition-transform"></i>
+            <div class="text-3xl font-bold text-gray-900">500+</div>
+            <div class="text-xs uppercase tracking-widest text-gray-500 font-semibold">Products Stocked</div>
         </div>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
-        <div class="card shadow-sm product-ov"> <img src="asset/img/product3.webp" class="card-img-top" alt="Product 3">
-          <div class="card-body">
-            <h5 class="card-title">CLEANING AND LAUNDRY</h5>
-            <p class="card-text">Bar Soaps, Detergents...</p>
-            <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#productModal-3">Explore Products</a> </div>
+        <div class="p-8 text-center group hover:bg-green-50 transition-colors">
+            <i class="fas fa-users text-4xl text-brand-green mb-3 transform group-hover:scale-110 transition-transform"></i>
+            <div class="text-3xl font-bold text-gray-900">1,200+</div>
+            <div class="text-xs uppercase tracking-widest text-gray-500 font-semibold">Happy Partners</div>
         </div>
-      </div>
-		
-      <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
-        <div class="card shadow-sm product-ov"> <img src="asset/img/product4.jpg" class="card-img-top" alt="Product 4">
-          <div class="card-body">
-            <h5 class="card-title">DAIRY</h5>
-            <p class="card-text">Milk, Yoghurt, Ghee...</p>
-            <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#productModal-4">Explore Products</a> </div>
+        <div class="p-8 text-center group hover:bg-green-50 transition-colors">
+            <i class="fas fa-clock text-4xl text-brand-green mb-3 transform group-hover:scale-110 transition-transform"></i>
+            <div class="text-3xl font-bold text-gray-900">98%</div>
+            <div class="text-xs uppercase tracking-widest text-gray-500 font-semibold">On-Time Delivery</div>
         </div>
-      </div>
-		
-		<div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
-        <div class="card shadow-sm product-ov"> <img src="asset/img/product5.jpg" class="card-img-top" alt="Product 5">
-          <div class="card-body">
-            <h5 class="card-title">BEVARAGES</h5>
-            <p class="card-text">Juice, Tea, Coffee...</p>
-            <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#productModal-5">Explore Products</a> </div>
-        </div>
-      </div>
-		
-		<div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
-        <div class="card shadow-sm product-ov"> <img src="asset/img/product6.jpg" class="card-img-top" alt="Product 6">
-          <div class="card-body">
-            <h5 class="card-title">HEALTHCARE &amp; HYGIENE</h5>
-            <p class="card-text">Diapers, Toothpaste...</p>
-            <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#productModal-6">Explore Products</a> </div>
-        </div>
-      </div>
-      <!-- Add more product cards here --> 
     </div>
-  </div>
 </section>
 
-<!-- About Section -->
-<section id="about" class="about py-5">
-  <div class="container">
-    <h2 class="display-4 text-center mb-5 animate__animated animate__fadeIn">About Us</h2>
-    <div class="row">
-      <div class="col-lg-12">
-        <p class="lead text-center animate__animated animate__fadeIn">Since it's establishment, BEI BORA DISTRIBUTORS is a leading distributor specializing in foodstuffs and household products across Kenya. Over the years, we have built a strong reputation as a trusted supplier, known for our commitment to quality and reliability.
-          
-          Our core activity involves supplying a wide range of foodstuffs and household products throughout the country. We partner with wholesalers, retailers, and various organizations to ensure that our products reach every corner of Kenya efficiently.
-          
-          In addition to our own in-house brand, BEI BORA®, we also offer an extensive selection of international brands upon request. Our goal is to provide our clients with a comprehensive assortment of high-quality products to meet their diverse needs.
-          
-          At BEI BORA DISTRIBUTORS, we are dedicated to excellence in service and product delivery, striving to exceed expectations and support the everyday needs of our customers.</p>
-      </div>
+<!-- 3. Trusted Partners Ticker (Visual Proof) -->
+<section class="py-12 bg-gray-50 overflow-hidden">
+    <div class="text-center mb-6">
+        <p class="text-gray-500 font-semibold uppercase tracking-widest text-xs">Distributing Top Brands Including</p>
     </div>
-  </div>
+    <!-- Simple CSS Logo Slider Placeholder -->
+    <div class="flex justify-center flex-wrap gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+        <div class="text-2xl font-bold text-gray-400 flex items-center gap-2"><i class="fas fa-tint"></i> UNILEVER</div>
+        <div class="text-2xl font-bold text-gray-400 flex items-center gap-2"><i class="fas fa-soap"></i> P&G</div>
+        <div class="text-2xl font-bold text-gray-400 flex items-center gap-2"><i class="fas fa-cookie-bite"></i> NESTLE</div>
+        <div class="text-2xl font-bold text-gray-400 flex items-center gap-2"><i class="fas fa-wine-bottle"></i> COCA-COLA</div>
+        <div class="text-2xl font-bold text-gray-400 flex items-center gap-2"><i class="fas fa-bread-slice"></i> UNGA LTD</div>
+    </div>
 </section>
 
-<!-- Why order from us section -->
-<section id="mission-visio" class="mission-vision py-5">
-  <div class="container">
-    <h2 class="display-4 text-center mb-5 animate__animated animate__fadeIn">WHY ORDER FROM BEI BORA?</h2>
-    <div class="col-lg-12">
-      <div class="card shadow-sm">
-        <div class="card-body">
-          <p class="card-text lead text-center animate__animated animate__fadeIn">With over 10 years of experience in foodstuffs and household product distribution, our team at BEI BORA DISTRIBUTORS is highly trained and skilled, dedicated to meeting the diverse needs of our customers.
+<!-- 4. Detailed Service Pillars (Value Proposition) -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h5 class="text-brand-orange font-bold uppercase tracking-widest text-sm mb-2">Why Partner With Us</h5>
+            <h2 class="text-4xl md:text-5xl font-heading font-bold text-brand-dark">More Than Just A Supplier</h2>
+            <div class="w-32 h-1.5 bg-brand-green mx-auto mt-6 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <!-- Card 1 -->
+            <div class="bg-white border border-gray-100 p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:border-brand-orange transition-all duration-300 group">
+                <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-brand-orange transition-colors duration-300">
+                    <i class="fas fa-shipping-fast text-3xl text-brand-green group-hover:text-white"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Last-Mile Logistics</h3>
+                <p class="text-gray-600 leading-relaxed mb-6">We don't just ship; we deliver to your doorstep. Our fleet navigates urban centers and rural outposts alike to ensure your shelves are never empty.</p>
+                <ul class="space-y-2 text-sm text-gray-500">
+                    <li class="flex items-center"><i class="fas fa-check text-brand-green mr-2"></i> Same-day Nairobi delivery</li>
+                    <li class="flex items-center"><i class="fas fa-check text-brand-green mr-2"></i> Real-time tracking</li>
+                </ul>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white border border-gray-100 p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:border-brand-orange transition-all duration-300 group relative">
+                <div class="absolute top-0 right-0 bg-brand-orange text-white text-xs font-bold px-3 py-1 rounded-bl-xl rounded-tr-3xl">POPULAR</div>
+                <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-brand-orange transition-colors duration-300">
+                    <i class="fas fa-wallet text-3xl text-brand-green group-hover:text-white"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Flexible Credit Terms</h3>
+                <p class="text-gray-600 leading-relaxed mb-6">Cash flow matters. Qualify for our 30-day tiered credit facility designed to help small and medium retailers grow their inventory without pressure.</p>
+                 <ul class="space-y-2 text-sm text-gray-500">
+                    <li class="flex items-center"><i class="fas fa-check text-brand-green mr-2"></i> Zero interest for 14 days</li>
+                    <li class="flex items-center"><i class="fas fa-check text-brand-green mr-2"></i> Easy application process</li>
+                </ul>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white border border-gray-100 p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:border-brand-orange transition-all duration-300 group">
+                <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-brand-orange transition-colors duration-300">
+                    <i class="fas fa-chart-line text-3xl text-brand-green group-hover:text-white"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Market Intelligence</h3>
+                <p class="text-gray-600 leading-relaxed mb-6">Don't guess what sells. We share monthly reports on trending products and seasonal spikes so you stock the right items at the right time.</p>
+                 <ul class="space-y-2 text-sm text-gray-500">
+                    <li class="flex items-center"><i class="fas fa-check text-brand-green mr-2"></i> Monthly trend reports</li>
+                    <li class="flex items-center"><i class="fas fa-check text-brand-green mr-2"></i> Free merchandising advice</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 5. Featured Categories (Visual Grid) -->
+<section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-2">Our Catalogue</h2>
+                <p class="text-gray-500">Sourced directly from manufacturers for guaranteed authenticity.</p>
+            </div>
+            <a href="products.php" class="text-brand-orange font-bold hover:text-brand-green transition-colors mt-4 md:mt-0 flex items-center group">
+                View All Categories <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
+            </a>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <!-- Main Feature -->
+            <div class="md:col-span-2 md:row-span-2 relative group rounded-2xl overflow-hidden shadow-xl h-96">
+                <img src="asset/img/product1.jpg" alt="Oils" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>
+                <div class="absolute bottom-6 left-6 text-white">
+                    <span class="bg-brand-orange text-xs font-bold px-2 py-1 rounded mb-2 inline-block">BEST SELLERS</span>
+                    <h3 class="text-3xl font-bold mb-1">Cookings Oils & Fats</h3>
+                    <p class="text-gray-300 text-sm mb-4">Fresh Fri, Golden Fry, Cowboy & More</p>
+                    <a href="products.php" class="text-white border-b border-white pb-1 hover:text-brand-orange hover:border-brand-orange transition-colors text-sm">Shop Now</a>
+                </div>
+            </div>
+
+            <!-- Sub Feature 1 -->
+            <div class="relative group rounded-2xl overflow-hidden shadow-xl h-48">
+                <img src="asset/img/product2.jpg" alt="Rice" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700">
+                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-30 transition-all"></div>
+                <div class="absolute bottom-4 left-4 text-white">
+                     <h3 class="text-xl font-bold">Rice & Grains</h3>
+                </div>
+            </div>
+
+            <!-- Sub Feature 2 -->
+             <div class="relative group rounded-2xl overflow-hidden shadow-xl h-48">
+                <img src="asset/img/product3.webp" alt="Detergents" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700">
+                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-30 transition-all"></div>
+                <div class="absolute bottom-4 left-4 text-white">
+                     <h3 class="text-xl font-bold">Cleaning</h3>
+                </div>
+            </div>
+
+             <!-- Sub Feature 3 -->
+             <div class="relative group rounded-2xl overflow-hidden shadow-xl h-48">
+                <img src="asset/img/product4.jpg" alt="Dairy" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700">
+                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-30 transition-all"></div>
+                <div class="absolute bottom-4 left-4 text-white">
+                     <h3 class="text-xl font-bold">Dairy Products</h3>
+                </div>
+            </div>
+
+             <!-- Sub Feature 4 -->
+             <div class="relative group rounded-2xl overflow-hidden shadow-xl h-48 bg-brand-dark flex items-center justify-center">
+                <div class="text-center p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">300+ More</h3>
+                    <p class="text-gray-400 text-xs mb-4">Items waiting for you</p>
+                    <a href="products.php" class="inline-block w-8 h-8 bg-brand-orange rounded-full text-white leading-8 hover:bg-white hover:text-brand-orange transition-colors"><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 6. Process Section (How It Works) -->
+<section id="process" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+         <div class="mb-16">
+            <h5 class="text-brand-green font-bold uppercase tracking-widest text-sm mb-2">Seamless Experience</h5>
+            <h2 class="text-4xl font-heading font-bold text-brand-dark">How To Order</h2>
+        </div>
+        
+        <div class="relative">
+            <!-- Connecting Line -->
+            <div class="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-gray-100 -z-10 transform -translate-y-1/2"></div>
             
-            We are equipped with the infrastructure necessary to exceed customer expectations in quality, variety, availability, reliability, and speed. Our robust system ensures that we deliver superior products and service, consistently meeting and surpassing the demands of our clients.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-	
-	<!-- Stats Section -->
-    <section class="stats-section">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-4 mb-4">
-                    <div class="stats-card">
-                        <div class="number">10+</div>
-                        <div class="label">Years of Experience</div>
-                    </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div class="bg-white p-6 relative">
+                    <div class="w-16 h-16 bg-brand-orange text-white rounded-full text-2xl font-bold flex items-center justify-center mx-auto mb-6 shadow-lg border-4 border-white">1</div>
+                    <h4 class="text-xl font-bold mb-3">Browse Catalog</h4>
+                    <p class="text-gray-500 text-sm">Explore our Products page or download our PDF list.</p>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="stats-card">
-                        <div class="number">500+</div>
-                        <div class="label">Products Available</div>
-                    </div>
+                 <!-- Step 2 -->
+                <div class="bg-white p-6 relative">
+                    <div class="w-16 h-16 bg-brand-green text-white rounded-full text-2xl font-bold flex items-center justify-center mx-auto mb-6 shadow-lg border-4 border-white">2</div>
+                    <h4 class="text-xl font-bold mb-3">Place Order</h4>
+                    <p class="text-gray-500 text-sm">Call, WhatsApp, or email your list to our sales team.</p>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="stats-card">
-                        <div class="number">1,000+</div>
-                        <div class="label">Satisfied Clients</div>
-                    </div>
+                 <!-- Step 3 -->
+                <div class="bg-white p-6 relative">
+                    <div class="w-16 h-16 bg-gray-800 text-white rounded-full text-2xl font-bold flex items-center justify-center mx-auto mb-6 shadow-lg border-4 border-white">3</div>
+                    <h4 class="text-xl font-bold mb-3">Processing</h4>
+                    <p class="text-gray-500 text-sm">We pack and verify your goods instantly.</p>
+                </div>
+                 <!-- Step 4 -->
+                <div class="bg-white p-6 relative">
+                    <div class="w-16 h-16 bg-brand-orange text-white rounded-full text-2xl font-bold flex items-center justify-center mx-auto mb-6 shadow-lg border-4 border-white"><i class="fas fa-check"></i></div>
+                    <h4 class="text-xl font-bold mb-3">Delivery</h4>
+                    <p class="text-gray-500 text-sm">Receive goods at your shop and pay via M-Pesa.</p>
                 </div>
             </div>
         </div>
-    </section>
-
-<!-- Testimonials Section -->
-<section id="testimonials" class="testimonials py-5">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6 mb-4 mb-lg-0"> <img src="asset/img/testimonial-image.jpg" alt="Testimonial Image" class="img-fluid rounded"> </div>
-      <div class="col-lg-6">
-        <h2 class="display-4 text-center mb-5 animate__animated animate__fadeIn">What Our Customers Say</h2>
-        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner"> 
-            <!-- Testimonial 1 -->
-            <div class="carousel-item active">
-              <div class="card text-center shadow-sm animate__animated animate__fadeIn">
-                <div class="card-body"> <img src="asset/img/user.png" class="rounded-circle mb-3" alt="Customer 1">
-                  <p class="lead">"BEI BORA has been our go-to supplier for years. Their products are top-notch and their customer service is outstanding!"</p>
-                  <p class="font-italic">- Mercy, Shop Attendant</p>
-                </div>
-              </div>    
-            </div>
-            <!-- Testimonial 2 -->
-            <div class="carousel-item">
-              <div class="card text-center shadow-sm animate__animated animate__fadeIn">
-                <div class="card-body"> <img src="asset/img/user.png" class="rounded-circle mb-3" alt="Customer 2">
-                  <p class="lead">"Great experience working with BEI BORA. They always deliver on time and exceed our expectations!"</p>
-                  <p class="font-italic">- Sarah, Business Woman</p>
-                </div>
-              </div>
-            </div>
-            <!-- Testimonial 3 -->
-            <div class="carousel-item">
-              <div class="card text-center shadow-sm animate__animated animate__fadeIn">
-                <div class="card-body"> <img src="asset/img/user.png" class="rounded-circle mb-3" alt="Customer 3">
-                  <p class="lead">"Highly recommend BEI BORA for anyone looking for quality products and reliable service."</p>
-                  <p class="font-italic">- Kariuki, Business Person</p>
-                </div>
-              </div>
-            </div>
-            <!-- Add more testimonials here as needed --> 
-          </div>
-          <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
-      </div>
     </div>
-  </div>
 </section>
 
-<!-- Mission and Vision Section -->
-<section id="mission-vision" class="mission-vision py-5">
-  <div class="container">
-    <h2 class="display-4 text-center mb-5 animate__animated animate__fadeIn">Mission and Vision</h2>
-    <div class="row"> 
-      
-      <!-- Mission Card -->
-      <div class="col-lg-6">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h3 class="card-title text-center mb-3">Mission</h3>
-            <p class="card-text lead text-center animate__animated animate__fadeIn">To deliver a wide range of high-quality foodstuffs and household products across Kenya with unmatched efficiency and reliability.We strive to build lasting partnerships with wholesalers, retailers, and organizations, ensuring that our comprehensive assortment of products meets the evolving needs of our customers. Through our dedication to superior service and continuous improvement, we aim to exceed expectations and support the daily needs of communities throughout the country.</p>
-          </div>
+<!-- 7. Core Pillars (The Bei Bora Standard) -->
+<section class="py-20 bg-gray-50">
+     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+             <h5 class="text-brand-green font-bold uppercase tracking-widest text-sm mb-2">Our Philosophy</h5>
+             <h2 class="text-3xl md:text-4xl font-heading font-bold text-gray-900">The Bei Bora Standard</h2>
+             <div class="w-24 h-1 bg-brand-orange mx-auto mt-4 rounded-full"></div>
         </div>
-      </div>
-      
-      <!-- Vision Card -->
-      <div class="col-lg-6">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h3 class="card-title text-center mb-3">Vision</h3>
-            <p class="card-text lead text-center animate__animated animate__fadeIn">To be Kenya's premier distributor of foodstuffs and household products, renowned for our unwavering commitment to quality, innovation, and reliability. We envision a future where BEI BORA DISTRIBUTORS is synonymous with excellence, bridging the gap between diverse needs and exceptional products, while enriching the lives of every Kenyan.</p>
-          </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Pillar 1: Quality -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 p-8 text-center group">
+                <div class="w-24 h-24 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-green transition-colors duration-300">
+                    <i class="fas fa-medal text-4xl text-brand-green group-hover:text-white transition-colors duration-300"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-gray-900">Uncompromising Quality</h3>
+                <p class="text-gray-500 text-sm mb-6 leading-relaxed">Quality isn't just a promise; it's our guiding principle. We enforce rigorous testing on every product to ensure your customers keep coming back.</p>
+                <div class="w-full h-1 bg-gray-100 rounded-full overflow-hidden">
+                    <div class="w-0 h-full bg-brand-orange group-hover:w-full transition-all duration-700"></div>
+                </div>
+            </div>
+
+             <!-- Pillar 2: Innovation -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 p-8 text-center group">
+                <div class="w-24 h-24 bg-orange-50 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-orange transition-colors duration-300">
+                    <i class="fas fa-lightbulb text-4xl text-brand-orange group-hover:text-white transition-colors duration-300"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-gray-900">Market Innovation</h3>
+                <p class="text-gray-500 text-sm mb-6 leading-relaxed">We stay ahead of the curve. By analyzing consumer trends, we bring you the latest, high-demand products before the competition does.</p>
+                <div class="w-full h-1 bg-gray-100 rounded-full overflow-hidden">
+                    <div class="w-0 h-full bg-brand-green group-hover:w-full transition-all duration-700"></div>
+                </div>
+            </div>
+
+             <!-- Pillar 3: Partnership -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 p-8 text-center group">
+                <div class="w-24 h-24 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-dark transition-colors duration-300">
+                    <i class="fas fa-handshake text-4xl text-brand-dark group-hover:text-white transition-colors duration-300"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-gray-900">Lasting Partnership</h3>
+                <p class="text-gray-500 text-sm mb-6 leading-relaxed">Your growth is our growth. We believe in building strong, transparent, and supportive relationships with every retailer we serve.</p>
+                <div class="w-full h-1 bg-gray-100 rounded-full overflow-hidden">
+                    <div class="w-0 h-full bg-brand-orange group-hover:w-full transition-all duration-700"></div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
+     </div>
 </section>
 
-<!-- FAQs Section -->
-<section id="faqs" class="faqs py-5">
-  <div class="container">
-    <h2 class="display-4 text-center mb-5 animate__animated animate__fadeIn">Frequently Asked Questions</h2>
-    <div class="accordion" id="accordionFAQs"> 
-      
-      <!-- FAQ Item 1 -->
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h5 class="mb-0">
-            <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Question 1: What payment methods do you accept? </button>
-          </h5>
+<!-- 8. FAQ Accordion -->
+<section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-3xl font-heading font-bold text-center mb-10">Common Questions</h2>
+        <div class="space-y-4">
+            <details class="group bg-gray-50 rounded-xl p-6 [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex items-center justify-between cursor-pointer">
+                    <h2 class="font-bold text-gray-900">Do you offer bulk discounts?</h2>
+                    <span class="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3 shadow-sm group-open:bg-brand-orange group-open:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-45" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+                        </svg>
+                    </span>
+                </summary>
+                <p class="mt-4 leading-relaxed text-gray-700">Yes, we offer tiered pricing for bulk purchases. The more you buy, the more you save. Contact our sales team for a custom quote.</p>
+            </details>
+            <details class="group bg-gray-50 rounded-xl p-6 [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex items-center justify-between cursor-pointer">
+                    <h2 class="font-bold text-gray-900">What payment methods do you accept?</h2>
+                    <span class="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3 shadow-sm group-open:bg-brand-orange group-open:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-45" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+                        </svg>
+                    </span>
+                </summary>
+                <p class="mt-4 leading-relaxed text-gray-700">We accept M-Pesa, Bank Transfer, and Cheques for verified accounts. All payments are secure and instant.</p>
+            </details>
+             <details class="group bg-gray-50 rounded-xl p-6 [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex items-center justify-between cursor-pointer">
+                    <h2 class="font-bold text-gray-900">Can I schedule a delivery?</h2>
+                    <span class="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3 shadow-sm group-open:bg-brand-orange group-open:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-45" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+                        </svg>
+                    </span>
+                </summary>
+                <p class="mt-4 leading-relaxed text-gray-700">Absolutely! You can choose a delivery window that suits your business hours when placing your order.</p>
+            </details>
         </div>
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionFAQs">
-          <div class="card-body text-black-50"> Answer: We accept MPESA payments for security and efficiency </div>
-        </div>
-      </div>
-      
-      <!-- FAQ Item 2 -->
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h5 class="mb-0">
-            <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Question 2: What is your return policy? </button>
-          </h5>
-        </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionFAQs">
-          <div class="card-body text-black-50"> Answer: Our return policy allows for returns within 30 days of purchase. Please refer to our Returns page for more details. </div>
-        </div>
-      </div>
-      
-      <!-- FAQ Item 3 -->
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h5 class="mb-0">
-            <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Question 3: How can I contact customer support? </button>
-          </h5>
-        </div>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionFAQs">
-          <div class="card-body text-black-50"> Answer: You can reach our customer support team via email at info@beibora.com or by calling +254 718 005 867 </div>
-        </div>
-      </div>
-      
-      <!-- Add more FAQ items as needed --> 
-      
     </div>
-  </div>
 </section>
 
-<!-- Blog Section -->
-<section id="blog" class="blog py-5">
-  <div class="container">
-    <h2 class="display-4 text-center mb-5 animate__animated animate__fadeIn">Latest from Our Blog</h2>
-    <div class="row">
-		
-		<div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
-        <div class="card shadow-sm product-ov"> <img src="asset/blogs/9375520.png" class="card-img-top" alt="Product 2">
-          <div class="card-body blog-text">
-            <h5 class="card-title">The Heart of Our Commitment</h5>
-            <p class="card-text small text-black-50">At BEI BORA DISTRIBUTORS, quality isn't just a promise; it's our guiding principle...</p>
-            <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#blogModal-1">Read More</a> </div>
+<!-- 9. Final CTA (Lead Logic) -->
+<section class="py-24 bg-brand-green relative overflow-hidden">
+    <!-- Abstract Decoration -->
+    <div class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-white rounded-full opacity-10 blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-60 h-60 bg-brand-orange rounded-full opacity-20 blur-3xl"></div>
+    
+    <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
+        <h2 class="text-4xl md:text-5xl font-heading font-extrabold text-white mb-6">Partner with Kenya's Leading Distributor</h2>
+        <p class="text-green-100 text-xl mb-10 max-w-2xl mx-auto">Join the network of successful retailers who trust Bei Bora for their inventory needs. Browse our full catalog online or talk to an agent today.</p>
+        <div class="flex flex-col sm:flex-row justify-center gap-6">
+            <a href="products.php" class="px-8 py-4 bg-white text-brand-green font-bold rounded-full shadow-xl hover:bg-gray-100 transition-colors flex items-center justify-center">
+                <i class="fas fa-box-open mr-3 text-brand-green"></i> Browse Products
+            </a>
+            <a href="contact.php" class="px-8 py-4 bg-brand-orange text-white font-bold rounded-full shadow-xl hover:bg-orange-600 transition-colors flex items-center justify-center">
+                <i class="fas fa-phone-alt mr-3"></i> Contact Sales
+            </a>
         </div>
-		</div>
-		<div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
-        <div class="card shadow-sm product-ov"> <img src="asset/blogs/1568482.png" class="card-img-top" alt="Product 2">
-          <div class="card-body blog-text">
-            <h5 class="card-title">Meeting the Evolving Needs of Kenyans</h5>
-            <p class="card-text small text-black-50">In today’s rapidly changing market, innovation is essential for staying relevant and meeting the diverse needs of consumers...</p>
-            <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#blogModal-2">Read More</a> </div>
-        </div>
-		</div>
-		<div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
-        <div class="card shadow-sm product-ov"> <img src="asset/blogs/1269668624.jpg" class="card-img-top" alt="Product 2">
-          <div class="card-body blog-text">
-            <h5 class="card-title">Building Lasting Partnerships</h5>
-            <p class="card-text small text-black-50">At BEI BORA DISTRIBUTORS, we believe that strong relationships are the backbone of our success...</p>
-            <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#blogModal-3">Read More</a> </div>
-        </div>
-		</div>
-
     </div>
-  </div>
 </section>
 
-<section class="signup-section" id="signup">
-  <div class="container px-4 px-lg-5">
-    <div class="row gx-4 gx-lg-5">
-      <div class="col-md-10 col-lg-8 mx-auto text-center"> <i class="far fa-paper-plane fa-2x mb-2 custom-icon"></i>
-        <h2 class="mb-5 custom-signupheader">Subscribe to receive updates!</h2>
-        <!-- * * * * * * * * * * * * * * *--> 
-        <!-- * * SB Forms Contact Form * *--> 
-        <!-- * * * * * * * * * * * * * * *--> 
-        <!-- This form is pre-integrated with SB Forms.--> 
-        <!-- To make this form functional, sign up at--> 
-        <!-- https://startbootstrap.com/solution/contact-forms--> 
-        <!-- to get an API token!-->
-        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-          <!-- Email address input-->
-          <div class="row input-group-newsletter">
-            <div class="col">
-              <input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" />
-            </div>
-            <div class="col-auto">
-              <button class="btn btn-primary" id="submitButton" type="submit">Notify Me!</button>
-            </div>
-          </div>
-          <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-          <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-          <!-- Submit success message--> 
-          <!----> 
-          <!-- This is what your users will see when the form--> 
-          <!-- has successfully submitted
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3 mt-2 text-white">
-                                <div class="fw-bolder">Subscription successful!</div>
-                                <br />
-                            </div>
-                        </div>--> 
-          <!-- Submit error message--> 
-          <!----> 
-          <!-- This is what your users will see when there is--> 
-          <!-- an error submitting the form
-                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>-->
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Contact-->
-<section class="contact-section custom-contbg">
-  <div class="container px-4 px-lg-5">
-    <div class="row gx-4 gx-lg-5">
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100 rounded">
-          <div class="card-body text-center"> <i class="fas fa-map-marked-alt mb-2 custom-icon"></i>
-            <h4 class="text-uppercase m-0">Address</h4>
-            <hr class="my-4 mx-auto rounded" />
-            <div class="small text-black-50 contact-mail"><a href="https://maps.app.goo.gl/nnC5X4FHiRdWXm2j9" target="_blank">Adjacent to Jacaranda Roundabout, Spine Road, Kayole, NRB, -1.287990, 36.905274</a></div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100 rounded">
-          <div class="card-body text-center"> <i class="fas fa-envelope mb-2 custom-icon"></i>
-            <h4 class="text-uppercase m-0">Email</h4>
-            <hr class="my-4 mx-auto rounded" />
-            <div class="small text-black-50 contact-mail"><a href="#!">info@beibora.com</a></div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100 rounded">
-          <div class="card-body text-center"> <i class="fas fa-mobile-alt mb-2 custom-icon"></i>
-            <h4 class="text-uppercase m-0">Phone</h4>
-            <hr class="my-4 mx-auto rounded" />
-            <div class="small text-black-50 contact-mail"><a href="tel:+254 714 285 993">+254 714 285 993</a> | <a href="tel:+254 718 005 867">+254 718 005 867</a></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br>
-    <br>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="text-white py-4">
-  <div class="container text-center">
-    <ul class="list-inline mb-3 footer-social">
-      <li class="list-inline-item"> <a href="#"><img src="asset/img/icons8-linkedin-48.png" alt="LinkedIn"></a> </li>
-      <li class="list-inline-item"> <a href="#"><img src="asset/img/icons8-facebook-48.png" alt="Facebook"></a> </li>
-      <li class="list-inline-item"> <a href="#"><img src="asset/img/icons8-x-48.png" alt="Twitter"></a> </li>
-      <li class="list-inline-item"> <a href="#"><img src="asset/img/icons8-instagram-48.png" alt="Instagram"></a> </li>
-    </ul>
-    <p>&copy; 2024 BEI BORA. All rights reserved.</p>
-  </div>
-  
-  <!--modals-->
-  <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-			<h5 class="modal-title text-dark" id="productModalLabel">OILS AND FATS</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-        </div>
-        <div class="modal-body"> 
-          
-          <!-- Product details form or content -->
-          <div class="container">
-            <div class="row">
-              <?php
-              // Define the directory you want to scan
-              $directory = 'asset/products/section_a'; // Replace with the path to your directory
-
-              // Check if the directory exists
-              if ( is_dir( $directory ) ) {
-                // Get an array of filenames in the directory
-                $files = scandir( $directory );
-
-                // Filter out the special entries '.' and '..'
-                $files = array_diff( $files, array( '.', '..' ) );
-
-                // Display the files
-                if ( !empty( $files ) ) {
-                  foreach ( $files as $file ) {
-                    // Get the filename with extension
-                    $filenameWithExtension = htmlspecialchars( $file );
-
-                    // Get the filename without extension
-                    $fileParts = pathinfo( $file );
-                    $filenameWithoutExtension = htmlspecialchars( $fileParts[ 'filename' ] );
-                    ?>
-				
-				
-              <div class="col-xl-3 col-lg-4 col-md-6 mb-4" data-aos="fade-up">
-                <div class="card shadow-sm product-img"> <img src="asset/products/section_a/<?php echo $filenameWithExtension;?>" class="card-img-top" alt="<?php echo $filenameWithoutExtension;?>">
-                  <div class="card-body">
-                    <p class="card-text small text-black-50 modal-content-p"><?php echo $filenameWithoutExtension;?></p>
-                  </div>
-                </div>
-              </div>
-              <?php
-              }
-              } else {
-                echo "<p class='card-text small text-black-50 modal-content-p'>No products here.</p>";
-              }
-              } else {
-                echo "<p class='card-text small text-black-50 modal-content-p'>Directory does not exist.</p>";
-              }
-              ?>
-
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <!--MODAL SECTION B-->
-
-	<div class="modal fade" id="productModal-2" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-			<h5 class="modal-title text-dark" id="productModalLabel">COMMODITIES</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-        </div>
-        <div class="modal-body"> 
-          
-          <!-- Product details form or content -->
-          <div class="container">
-            <div class="row">
-              <?php
-              // Define the directory you want to scan
-              $directory = 'asset/products/section_b'; // Replace with the path to your directory
-
-              // Check if the directory exists
-              if ( is_dir( $directory ) ) {
-                // Get an array of filenames in the directory
-                $files = scandir( $directory );
-
-                // Filter out the special entries '.' and '..'
-                $files = array_diff( $files, array( '.', '..' ) );
-
-                // Display the files
-                if ( !empty( $files ) ) {
-                  foreach ( $files as $file ) {
-                    // Get the filename with extension
-                    $filenameWithExtension = htmlspecialchars( $file );
-
-                    // Get the filename without extension
-                    $fileParts = pathinfo( $file );
-                    $filenameWithoutExtension = htmlspecialchars( $fileParts[ 'filename' ] );
-                    ?>
-              <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
-                <div class="card shadow-sm product-img"> <img src="asset/products/section_b/<?php echo $filenameWithExtension;?>" class="card-img-top" alt="<?php echo $filenameWithoutExtension;?>">
-                  <div class="card-body">
-                    <p class="card-text small text-black-50 modal-content-p"><?php echo $filenameWithoutExtension;?></p>
-                  </div>
-                </div>
-              </div>
-              <?php
-              }
-              } else {
-                echo "<p class='card-text small text-black-50 modal-content-p'>No products here.</p>";
-              }
-              } else {
-                echo "<p class='card-text small text-black-50 modal-content-p'>Directory does not exist.</p>";
-              }
-              ?>
- 
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-	
-	
-	<!--MODAL SECTION C-->
-  
-  <div class="modal fade" id="productModal-3" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title text-dark" id="productModalLabel-3">CLEANING AND LAUNDRY</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-        </div>
-        <div class="modal-body"> 
-          
-          <!-- Product details form or content -->
-          <div class="container">
-            <div class="row">
-              <?php
-              // Define the directory you want to scan
-              $directory = 'asset/products/section_c'; // Replace with the path to your directory
-
-              // Check if the directory exists
-              if ( is_dir( $directory ) ) {
-                // Get an array of filenames in the directory
-                $files = scandir( $directory );
-
-                // Filter out the special entries '.' and '..'
-                $files = array_diff( $files, array( '.', '..' ) );
-
-                // Display the files
-                if ( !empty( $files ) ) {
-                  foreach ( $files as $file ) {
-                    // Get the filename with extension
-                    $filenameWithExtension = htmlspecialchars( $file );
-
-                    // Get the filename without extension
-                    $fileParts = pathinfo( $file );
-                    $filenameWithoutExtension = htmlspecialchars( $fileParts[ 'filename' ] );
-                    ?>
-              <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
-                <div class="card shadow-sm product-img"> <img src="asset/products/section_c/<?php echo $filenameWithExtension;?>" class="card-img-top" alt="<?php echo $filenameWithoutExtension;?>">
-                  <div class="card-body">
-                    <p class="card-text small text-black-50 modal-content-p"><?php echo $filenameWithoutExtension;?></p>
-                  </div>
-                </div>
-              </div>
-              <?php
-              }
-              } else {
-                echo "<p class='card-text small text-black-50 modal-content-p'>No products here.</p>";
-              }
-              } else {
-                echo "<p class='card-text small text-black-50 modal-content-p'>Directory does not exist.</p>";
-              }
-              ?>
- 
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-	
-		<!--MODAL SECTION D-->
-  
-  <div class="modal fade" id="productModal-4" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title text-dark" id="productModalLabel-4">DAIRY</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-        </div>
-        <div class="modal-body"> 
-          
-          <!-- Product details form or content -->
-          <div class="container">
-            <div class="row">
-              <?php
-              // Define the directory you want to scan
-              $directory = 'asset/products/section_d'; // Replace with the path to your directory
-
-              // Check if the directory exists
-              if ( is_dir( $directory ) ) {
-                // Get an array of filenames in the directory
-                $files = scandir( $directory );
-
-                // Filter out the special entries '.' and '..'
-                $files = array_diff( $files, array( '.', '..' ) );
-
-                // Display the files
-                if ( !empty( $files ) ) {
-                  foreach ( $files as $file ) {
-                    // Get the filename with extension
-                    $filenameWithExtension = htmlspecialchars( $file );
-
-                    // Get the filename without extension
-                    $fileParts = pathinfo( $file );
-                    $filenameWithoutExtension = htmlspecialchars( $fileParts[ 'filename' ] );
-                    ?>
-              <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
-                <div class="card shadow-sm product-img"> <img src="asset/products/section_d/<?php echo $filenameWithExtension;?>" class="card-img-top" alt="<?php echo $filenameWithoutExtension;?>">
-                  <div class="card-body">
-                    <p class="card-text small text-black-50 modal-content-p"><?php echo $filenameWithoutExtension;?></p>
-                  </div>
-                </div>
-              </div>
-              <?php
-              }
-              } else {
-                echo "<p class='card-text small text-black-50 modal-content-p'>No products here.</p>";
-              }
-              } else {
-                echo "<p class='card-text small text-black-50 modal-content-p'>Directory does not exist.</p>";
-              }
-              ?>
- 
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-	
-	<!--MODAL SECTION E-->
-  
-  <div class="modal fade" id="productModal-5" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title text-dark" id="productModalLabel-4">BEVERAGES</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-        </div>
-        <div class="modal-body"> 
-          
-          <!-- Product details form or content -->
-          <div class="container">
-            <div class="row">
-              <?php
-              // Define the directory you want to scan
-              $directory = 'asset/products/section_e'; // Replace with the path to your directory
-
-              // Check if the directory exists
-              if ( is_dir( $directory ) ) {
-                // Get an array of filenames in the directory
-                $files = scandir( $directory );
-
-                // Filter out the special entries '.' and '..'
-                $files = array_diff( $files, array( '.', '..' ) );
-
-                // Display the files
-                if ( !empty( $files ) ) {
-                  foreach ( $files as $file ) {
-                    // Get the filename with extension
-                    $filenameWithExtension = htmlspecialchars( $file );
-
-                    // Get the filename without extension
-                    $fileParts = pathinfo( $file );
-                    $filenameWithoutExtension = htmlspecialchars( $fileParts[ 'filename' ] );
-                    ?>
-              <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
-                <div class="card shadow-sm product-img"> <img src="asset/products/section_e/<?php echo $filenameWithExtension;?>" class="card-img-top" alt="<?php echo $filenameWithoutExtension;?>">
-                  <div class="card-body">
-                    <p class="card-text small text-black-50 modal-content-p"><?php echo $filenameWithoutExtension;?></p>
-                  </div>
-                </div>
-              </div>
-              <?php
-              }
-              } else {
-                echo "<p class='card-text small text-black-50 modal-content-p'>No products here.</p>";
-              }
-              } else {
-                echo "<p class='card-text small text-black-50 modal-content-p'>Directory does not exist.</p>";
-              }
-              ?>
- 
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-		<!--MODAL SECTION F-->
-  
-  <div class="modal fade" id="productModal-6" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title text-dark" id="productModalLabel-4">HEALTHCARE AND HYGIENE</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-        </div>
-        <div class="modal-body"> 
-          
-          <!-- Product details form or content -->
-          <div class="container">
-            <div class="row">
-              <?php
-              // Define the directory you want to scan
-              $directory = 'asset/products/section_f'; // Replace with the path to your directory
-
-              // Check if the directory exists
-              if ( is_dir( $directory ) ) {
-                // Get an array of filenames in the directory
-                $files = scandir( $directory );
-
-                // Filter out the special entries '.' and '..'
-                $files = array_diff( $files, array( '.', '..' ) );
-
-                // Display the files
-                if ( !empty( $files ) ) {
-                  foreach ( $files as $file ) {
-                    // Get the filename with extension
-                    $filenameWithExtension = htmlspecialchars( $file );
-
-                    // Get the filename without extension
-                    $fileParts = pathinfo( $file );
-                    $filenameWithoutExtension = htmlspecialchars( $fileParts[ 'filename' ] );
-                    ?>
-              <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
-                <div class="card shadow-sm product-img"> <img src="asset/products/section_f/<?php echo $filenameWithExtension;?>" class="card-img-top" alt="<?php echo $filenameWithoutExtension;?>">
-                  <div class="card-body">
-                    <p class="card-text small text-black-50 modal-content-p"><?php echo $filenameWithoutExtension;?></p>
-                  </div>
-                </div>
-              </div>
-              <?php
-              }
-              } else {
-                echo "<p class='card-text small text-black-50 modal-content-p'>No products here.</p>";
-              }
-              } else {
-                echo "<p class='card-text small text-black-50 modal-content-p'>Directory does not exist.</p>";
-              }
-              ?>
- 
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-	
-		<!--BLOG MODAL SECTION 1-->
-	
-		<div class="modal fade" id="blogModal-1" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-			<h5 class="modal-title text-dark" id="productModalLabel">The Heart of Our Commitment: Quality in Every Product</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-        </div>
-        <div class="modal-body"> 
-          
-          <!-- Product details form or content -->
-          <div class="container">
-     		<div class="modal-body">
-				
-               <div class="col-lg-3 col-md-6 mb-3 blog-image" data-aos="fade-up">
-                <div class="card shadow-sm product-img"> <img src="asset/blogs/9375520.png" class="card-img-top" alt="Commitment">
-                 
-                </div>
-              </div>
-				<div class="blog-text-c">
-					<p class="card-text lead">At BEI BORA DISTRIBUTORS, quality isn't just a promise; it's our guiding principle. As Kenya's premier distributor of Fast-Moving Consumer Goods (FMCGs), we understand that our customers rely on us for products that meet their everyday needs. This commitment to quality sets us apart and drives everything we do.</p>
-					
-							<p class="card-text lead"><strong>Our Quality Assurance Process</strong>Quality assurance is at the core of our operations. We implement a rigorous testing and selection process to ensure that every product in our portfolio meets high standards of quality. From the initial sourcing of goods to the final delivery, we carefully evaluate each product, assessing its durability, safety, and overall performance.</p>
-							<p class="card-text lead">We work closely with our suppliers, conducting regular audits and inspections to guarantee that they adhere to our stringent quality criteria. This collaboration allows us to maintain a diverse and reliable product range that our customers can trust.
-							</p>
-						
-							<p class="card-text lead"><strong>Importance of Quality in FMCGs:</strong>In the fast-paced world of FMCGs, quality is paramount. Consumers expect products that are not only effective but also safe and reliable. When customers choose our products, they are investing in their daily needs, and we take this responsibility seriously.
-							<br>
-							Quality impacts customer satisfaction and loyalty. When our customers know they can depend on us, they are more likely to return, creating a lasting relationship built on trust. We strive to provide products that meet and exceed these expectations, enriching the lives of those we serve.</p>
-						
-						
-						<p></p>
-
-					
-				</div> 
-          	
-				
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-	</div>
-			
-			<!--BLOG MODAL SECTION 2-->
-	
-		<div class="modal fade" id="blogModal-2" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-			<h5 class="modal-title text-dark" id="productModalLabel">Innovation in FMCGs: Meeting the Evolving Needs of Kenyans</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-        </div>
-        <div class="modal-body"> 
-          
-          <!-- Product details form or content -->
-          <div class="container">
-     		<div class="modal-body">
-				
-               <div class="col-lg-3 col-md-6 mb-3 blog-image" data-aos="fade-up">
-                <div class="card shadow-sm product-img"> <img src="asset/blogs/1568482.png" class="card-img-top" alt="Commitment">
-                 
-                </div>
-              </div>
-				<div class="blog-text-c">
-					<p class="card-text lead">In today’s rapidly changing market, innovation is essential for staying relevant and meeting the diverse needs of consumers. At BEI BORA DISTRIBUTORS, we are committed to not just keeping pace but leading the way in the Fast-Moving Consumer Goods (FMCG) sector. Our focus on innovation ensures that we provide products that align with the evolving preferences and lifestyles of Kenyans.</p>
-					
-					<p class="card-text lead"><strong>Emerging Trends in FMCGs</strong>The FMCG landscape is dynamic, influenced by various factors such as technology, consumer behavior, and global trends. Some key trends currently shaping the market include Sustainable Packaging, Health-Conscious Products and Technology Integration</p>
-
-					</p>
-
-					<p class="card-text lead"><strong>Our Innovative Approach:</strong>At BEI BORA DISTRIBUTORS, innovation isn’t just about products; it’s about how we operate and serve our partners. We continuously explore new ways to enhance our offerings and improve efficiency. Here’s how we do it: Collaborative Product Development, Investment in Research and Development and Training and Support for Partners.
-					<br>
-					Innovation is at the heart of our mission at BEI BORA DISTRIBUTORS. By embracing emerging trends and continuously improving our offerings, we aim to bridge the gap between diverse needs and exceptional products. As we move forward, we remain committed to enriching the lives of Kenyans with innovative solutions that cater to their evolving preferences. Together, let’s embrace a future where quality and innovation go hand in hand.</p>
-						
-						
-
-					
-				</div> 
-          	
-				
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-	</div>
-  
-	<!--BLOG MODAL SECTION 3-->
-	
-		<div class="modal fade" id="blogModal-3" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-			<h5 class="modal-title text-dark" id="productModalLabel">Building Lasting Partnerships: The BEI BORA DISTRIBUTORS Approach</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-        </div>
-        <div class="modal-body"> 
-          
-          <!-- Product details form or content -->
-          <div class="container">
-     		<div class="modal-body">
-				
-               <div class="col-lg-3 col-md-6 mb-3 blog-image" data-aos="fade-up">
-                <div class="card shadow-sm product-img"> <img src="asset/blogs/1269668624.jpg" class="card-img-top" alt="Commitment">
-                 
-                </div>
-              </div>
-				<div class="blog-text-c">
-					<p class="card-text lead">At BEI BORA DISTRIBUTORS, we believe that strong relationships are the backbone of our success. As Kenya’s premier distributor of Fast-Moving Consumer Goods (FMCGs), our commitment to building lasting partnerships with wholesalers, retailers, and organizations is integral to our mission. These collaborations not only enhance our service offerings but also support the growth of communities across the country.</p><br>
-					<p class="card-text lead"><strong>Training and Resources: </strong>  We offer training programs that equip our partners with the knowledge and skills they need to effectively market and sell our products. By sharing best practices, we empower them to succeed.</p>
-					
-					<p class="card-text lead"><strong>Responsive Communication:</strong>Open and transparent communication is key to our partnerships. We prioritize regular check-ins and feedback sessions to ensure that we address any challenges and celebrate successes together.</p>
-
-					
-
-					<p class="card-text lead"><strong>Community Engagement</strong>Our commitment to building partnerships extends to the communities we serve. We believe in corporate social responsibility and actively engage in initiatives that benefit society. Whether it’s supporting local charities, participating in community events, or promoting sustainable practices, we strive to make a positive impact.
-					<br>
-					At BEI BORA DISTRIBUTORS, we understand that our success is intertwined with that of our partners and the communities we serve. By fostering lasting relationships built on trust, support, and collaboration, we can navigate the challenges of the FMCG market together. As we look to the future, we remain committed to nurturing these partnerships, enriching the lives of Kenyans, and contributing to the growth and development of our nation. Together, we can achieve excellence and create a brighter future for all.</p>
-						
-						
-
-					
-				</div> 
-          	
-				
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-	</div>
-  
-</footer>
-
-	
-<!-- Bootstrap and custom JavaScript libraries --> 
-<script src="scripts.js"></script> 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
-<!-- AOS Library for scroll animations --> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> 
-	
-	
-	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-
-<script>
-        // Initialize AOS for scroll animations
-        AOS.init({
-            duration: 1000,
-            once: true // Only once animation on scroll
-        });
-    </script> 
-<!-- Initialize Bootstrap Carousel --> 
-<script>
-        $(document).ready(function(){
-            $('#testimonialCarousel').carousel();
-        });
-    </script>
-</body>
-</html>
+<?php include 'footer.php'; ?>

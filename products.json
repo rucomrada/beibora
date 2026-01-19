@@ -1,0 +1,1922 @@
+{
+    "categories": {
+        "section_a": {
+            "name": "Oils & Fats",
+            "icon": "fas fa-oil-can",
+            "description": "Premium cooking oils, fats, and margarine",
+            "gradient": "from-amber-50 to-orange-50"
+        },
+        "section_b": {
+            "name": "Commodities",
+            "icon": "fas fa-bread-slice",
+            "description": "Rice, flour, sugar, and essential staples",
+            "gradient": "from-yellow-50 to-amber-50"
+        },
+        "section_c": {
+            "name": "Cleaning & Laundry",
+            "icon": "fas fa-broom",
+            "description": "Detergents, soaps, and cleaning agents",
+            "gradient": "from-blue-50 to-cyan-50"
+        },
+        "section_d": {
+            "name": "Dairy Products",
+            "icon": "fas fa-cheese",
+            "description": "Milk, butter, yoghurt, and cheese",
+            "gradient": "from-purple-50 to-pink-50"
+        },
+        "section_e": {
+            "name": "Beverages",
+            "icon": "fas fa-mug-hot",
+            "description": "Tea, coffee, juice, and drinking chocolate",
+            "gradient": "from-green-50 to-teal-50"
+        },
+        "section_f": {
+            "name": "Health & Hygiene",
+            "icon": "fas fa-heartbeat",
+            "description": "Personal care, diapers, and health products",
+            "gradient": "from-red-50 to-pink-50"
+        },
+        "section_g": {
+            "name": "Snacks & Confectionery",
+            "icon": "fas fa-cookie-bite",
+            "description": "Chocolates, biscuits, and sweet treats",
+            "gradient": "from-orange-50 to-red-50"
+        }
+    },
+    "products": [
+        {
+            "id": "section_a_Avena Vegetable Oil 2L",
+            "name": "Avena Vegetable Oil 2L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Avena Vegetable Oil 2L.jpg",
+            "description": "Premium avena vegetable oil 2l available in various sizes.",
+            "searchTerms": "avena vegetable oil 2l avena vegetable oil 2l.jpg"
+        },
+        {
+            "id": "section_a_Borges Extra Virgin Olive Oil 1L",
+            "name": "Borges Extra Virgin Olive Oil 1L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Borges Extra Virgin Olive Oil 1L.jpg",
+            "description": "Premium borges extra virgin olive oil 1l available in various sizes.",
+            "searchTerms": "borges extra virgin olive oil 1l borges extra virgin olive oil 1l.jpg"
+        },
+        {
+            "id": "section_a_Captain Cook Corn Oil 3L",
+            "name": "Captain Cook Corn Oil 3L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Captain Cook Corn Oil 3L.jpg",
+            "description": "Premium captain cook corn oil 3l available in various sizes.",
+            "searchTerms": "captain cook corn oil 3l captain cook corn oil 3l.jpg"
+        },
+        {
+            "id": "section_a_Chipsy Plus 3 Cooking Fat Pure Yellow 2Kg",
+            "name": "Chipsy Plus 3 Cooking Fat Pure Yellow 2Kg",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Chipsy Plus 3 Cooking Fat Pure Yellow 2Kg.jpg",
+            "description": "Premium chipsy plus 3 cooking fat pure yellow 2kg available in various sizes.",
+            "searchTerms": "chipsy plus 3 cooking fat pure yellow 2kg chipsy plus 3 cooking fat pure yellow 2kg.jpg"
+        },
+        {
+            "id": "section_a_Cowboy Spesheli Cooking Fat 500g",
+            "name": "Cowboy Spesheli Cooking Fat 500g",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Cowboy Spesheli Cooking Fat 500g.jpg",
+            "description": "Premium cowboy spesheli cooking fat 500g available in various sizes.",
+            "searchTerms": "cowboy spesheli cooking fat 500g cowboy spesheli cooking fat 500g.jpg"
+        },
+        {
+            "id": "section_a_Dola Cooking Oil 3Ltr",
+            "name": "Dola Cooking Oil 3Ltr",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Dola Cooking Oil 3Ltr.jpg",
+            "description": "Premium dola cooking oil 3ltr available in various sizes.",
+            "searchTerms": "dola cooking oil 3ltr dola cooking oil 3ltr.jpg"
+        },
+        {
+            "id": "section_a_Elianto Corn Oil 3L",
+            "name": "Elianto Corn Oil 3L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Elianto Corn Oil 3L.jpg",
+            "description": "Premium elianto corn oil 3l available in various sizes.",
+            "searchTerms": "elianto corn oil 3l elianto corn oil 3l.jpg"
+        },
+        {
+            "id": "section_a_Fresh Fri Vegetable Oil 5L",
+            "name": "Fresh Fri Vegetable Oil 5L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Fresh Fri Vegetable Oil 5L.jpg",
+            "description": "Premium fresh fri vegetable oil 5l available in various sizes.",
+            "searchTerms": "fresh fri vegetable oil 5l fresh fri vegetable oil 5l.jpg"
+        },
+        {
+            "id": "section_a_Fry Mate Cooking Fat 2Kg",
+            "name": "Fry Mate Cooking Fat 2Kg",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Fry Mate Cooking Fat 2Kg.jpg",
+            "description": "Premium fry mate cooking fat 2kg available in various sizes.",
+            "searchTerms": "fry mate cooking fat 2kg fry mate cooking fat 2kg.jpg"
+        },
+        {
+            "id": "section_a_Golden Fry Vegetable Oil 3L",
+            "name": "Golden Fry Vegetable Oil 3L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Golden Fry Vegetable Oil 3L.jpg",
+            "description": "Premium golden fry vegetable oil 3l available in various sizes.",
+            "searchTerms": "golden fry vegetable oil 3l golden fry vegetable oil 3l.jpg"
+        },
+        {
+            "id": "section_a_Kasuku Pure White Cooking Fat Cholesterol Free 2Kg",
+            "name": "Kasuku Pure White Cooking Fat Cholesterol Free 2Kg",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Kasuku Pure White Cooking Fat Cholesterol Free 2Kg.jpg",
+            "description": "Premium kasuku pure white cooking fat cholesterol free 2kg available in various sizes.",
+            "searchTerms": "kasuku pure white cooking fat cholesterol free 2kg kasuku pure white cooking fat cholesterol free 2kg.jpg"
+        },
+        {
+            "id": "section_a_Kentaste Coconut Oil 1L",
+            "name": "Kentaste Coconut Oil 1L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Kentaste Coconut Oil 1L.jpg",
+            "description": "Premium kentaste coconut oil 1l available in various sizes.",
+            "searchTerms": "kentaste coconut oil 1l kentaste coconut oil 1l.jpg"
+        },
+        {
+            "id": "section_a_Kimbo Prem Cooking Oil 500Ml",
+            "name": "Kimbo Prem Cooking Oil 500Ml",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Kimbo Prem Cooking Oil 500Ml.jpg",
+            "description": "Premium kimbo prem cooking oil 500ml available in various sizes.",
+            "searchTerms": "kimbo prem cooking oil 500ml kimbo prem cooking oil 500ml.jpg"
+        },
+        {
+            "id": "section_a_Mallo Cooking Vegetable Fat 10Kg Carton",
+            "name": "Mallo Cooking Vegetable Fat 10Kg Carton",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Mallo Cooking Vegetable Fat 10Kg Carton.jpg",
+            "description": "Premium mallo cooking vegetable fat 10kg carton available in various sizes.",
+            "searchTerms": "mallo cooking vegetable fat 10kg carton mallo cooking vegetable fat 10kg carton.jpg"
+        },
+        {
+            "id": "section_a_Masterchef Cooking Oil 1Ltr",
+            "name": "Masterchef Cooking Oil 1Ltr",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Masterchef Cooking Oil 1Ltr.jpg",
+            "description": "Premium masterchef cooking oil 1ltr available in various sizes.",
+            "searchTerms": "masterchef cooking oil 1ltr masterchef cooking oil 1ltr.jpg"
+        },
+        {
+            "id": "section_a_Mountain Canola Oil Pure 2L",
+            "name": "Mountain Canola Oil Pure 2L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Mountain Canola Oil Pure 2L.jpg",
+            "description": "Premium mountain canola oil pure 2l available in various sizes.",
+            "searchTerms": "mountain canola oil pure 2l mountain canola oil pure 2l.jpg"
+        },
+        {
+            "id": "section_a_Mpishi Poa Cooking Vegetable Fat 500g",
+            "name": "Mpishi Poa Cooking Vegetable Fat 500g",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Mpishi Poa Cooking Vegetable Fat 500g.jpg",
+            "description": "Premium mpishi poa cooking vegetable fat 500g available in various sizes.",
+            "searchTerms": "mpishi poa cooking vegetable fat 500g mpishi poa cooking vegetable fat 500g.jpg"
+        },
+        {
+            "id": "section_a_Pietro Extra Virgin Olive Oil 1L",
+            "name": "Pietro Extra Virgin Olive Oil 1L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Pietro Extra Virgin Olive Oil 1L.jpg",
+            "description": "Premium pietro extra virgin olive oil 1l available in various sizes.",
+            "searchTerms": "pietro extra virgin olive oil 1l pietro extra virgin olive oil 1l.jpg"
+        },
+        {
+            "id": "section_a_Popco Pure Vegetable Oil 3L",
+            "name": "Popco Pure Vegetable Oil 3L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Popco Pure Vegetable Oil 3L.jpg",
+            "description": "Premium popco pure vegetable oil 3l available in various sizes.",
+            "searchTerms": "popco pure vegetable oil 3l popco pure vegetable oil 3l.jpg"
+        },
+        {
+            "id": "section_a_Postman Vegetable Oil 3Ltr",
+            "name": "Postman Vegetable Oil 3Ltr",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Postman Vegetable Oil 3Ltr.jpg",
+            "description": "Premium postman vegetable oil 3ltr available in various sizes.",
+            "searchTerms": "postman vegetable oil 3ltr postman vegetable oil 3ltr.jpg"
+        },
+        {
+            "id": "section_a_Rina Vegetable Oil 5L",
+            "name": "Rina Vegetable Oil 5L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Rina Vegetable Oil 5L.jpg",
+            "description": "Premium rina vegetable oil 5l available in various sizes.",
+            "searchTerms": "rina vegetable oil 5l rina vegetable oil 5l.jpg"
+        },
+        {
+            "id": "section_a_Rinsun Sunflower Oil 2L",
+            "name": "Rinsun Sunflower Oil 2L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Rinsun Sunflower Oil 2L.jpg",
+            "description": "Premium rinsun sunflower oil 2l available in various sizes.",
+            "searchTerms": "rinsun sunflower oil 2l rinsun sunflower oil 2l.jpg"
+        },
+        {
+            "id": "section_a_Salit Vegetable Cooking Oil 5L",
+            "name": "Salit Vegetable Cooking Oil 5L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Salit Vegetable Cooking Oil 5L.jpg",
+            "description": "Premium salit vegetable cooking oil 5l available in various sizes.",
+            "searchTerms": "salit vegetable cooking oil 5l salit vegetable cooking oil 5l.jpg"
+        },
+        {
+            "id": "section_a_Santa Maria Extra Virgin Olive Oil 1Ltr",
+            "name": "Santa Maria Extra Virgin Olive Oil 1Ltr",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Santa Maria Extra Virgin Olive Oil 1Ltr.jpg",
+            "description": "Premium santa maria extra virgin olive oil 1ltr available in various sizes.",
+            "searchTerms": "santa maria extra virgin olive oil 1ltr santa maria extra virgin olive oil 1ltr.jpg"
+        },
+        {
+            "id": "section_a_Somo Vegetable Cooking Fat 500g",
+            "name": "Somo Vegetable Cooking Fat 500g",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Somo Vegetable Cooking Fat 500g.jpg",
+            "description": "Premium somo vegetable cooking fat 500g available in various sizes.",
+            "searchTerms": "somo vegetable cooking fat 500g somo vegetable cooking fat 500g.jpg"
+        },
+        {
+            "id": "section_a_Sun Gold Sunflower Oil 5L",
+            "name": "Sun Gold Sunflower Oil 5L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Sun Gold Sunflower Oil 5L.jpg",
+            "description": "Premium sun gold sunflower oil 5l available in various sizes.",
+            "searchTerms": "sun gold sunflower oil 5l sun gold sunflower oil 5l.jpg"
+        },
+        {
+            "id": "section_a_Tily Pure White Cooking Fat 2Kg",
+            "name": "Tily Pure White Cooking Fat 2Kg",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Tily Pure White Cooking Fat 2Kg.jpg",
+            "description": "Premium tily pure white cooking fat 2kg available in various sizes.",
+            "searchTerms": "tily pure white cooking fat 2kg tily pure white cooking fat 2kg.jpg"
+        },
+        {
+            "id": "section_a_Ufuta Vegetable Oil 5L",
+            "name": "Ufuta Vegetable Oil 5L",
+            "category": "section_a",
+            "image": "asset\/products\/section_a\/Ufuta Vegetable Oil 5L.jpg",
+            "description": "Premium ufuta vegetable oil 5l available in various sizes.",
+            "searchTerms": "ufuta vegetable oil 5l ufuta vegetable oil 5l.jpg"
+        },
+        {
+            "id": "section_b_Ajab Home Baking Flour 2Kg",
+            "name": "Ajab Home Baking Flour 2Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Ajab Home Baking Flour 2Kg.jpg",
+            "description": "Premium ajab home baking flour 2kg available in various sizes.",
+            "searchTerms": "ajab home baking flour 2kg ajab home baking flour 2kg.jpg"
+        },
+        {
+            "id": "section_b_Amaize Premium Maize Meal 2Kg",
+            "name": "Amaize Premium Maize Meal 2Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Amaize Premium Maize Meal 2Kg.jpg",
+            "description": "Premium amaize premium maize meal 2kg available in various sizes.",
+            "searchTerms": "amaize premium maize meal 2kg amaize premium maize meal 2kg.jpg"
+        },
+        {
+            "id": "section_b_Amana Njahi 1Kg",
+            "name": "Amana Njahi 1Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Amana Njahi 1Kg.jpg",
+            "description": "Premium amana njahi 1kg available in various sizes.",
+            "searchTerms": "amana njahi 1kg amana njahi 1kg.jpg"
+        },
+        {
+            "id": "section_b_Blue Band Instant Porridge Flour 250 g",
+            "name": "Blue Band Instant Porridge Flour 250 G",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Blue Band Instant Porridge Flour 250 g.jpg",
+            "description": "Premium blue band instant porridge flour 250 g available in various sizes.",
+            "searchTerms": "blue band instant porridge flour 250 g blue band instant porridge flour 250 g.jpg"
+        },
+        {
+            "id": "section_b_Butterfly Prem Spaghetti 400 gm Value Pack",
+            "name": "Butterfly Prem Spaghetti 400 Gm Value Pack",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Butterfly Prem Spaghetti 400 gm Value Pack.jpeg",
+            "description": "Premium butterfly prem spaghetti 400 gm value pack available in various sizes.",
+            "searchTerms": "butterfly prem spaghetti 400 gm value pack butterfly prem spaghetti 400 gm value pack.jpeg"
+        },
+        {
+            "id": "section_b_Daawat Deli Basmati Rice 5 Kg",
+            "name": "Daawat Deli Basmati Rice 5 Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Daawat Deli Basmati Rice 5 Kg.jpg",
+            "description": "Premium daawat deli basmati rice 5 kg available in various sizes.",
+            "searchTerms": "daawat deli basmati rice 5 kg daawat deli basmati rice 5 kg.jpg"
+        },
+        {
+            "id": "section_b_Daawat Long Grain Rice 5Kg",
+            "name": "Daawat Long Grain Rice 5Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Daawat Long Grain Rice 5Kg.jpg",
+            "description": "Premium daawat long grain rice 5kg available in various sizes.",
+            "searchTerms": "daawat long grain rice 5kg daawat long grain rice 5kg.jpg"
+        },
+        {
+            "id": "section_b_Dola Maize Meal 10 Kg",
+            "name": "Dola Maize Meal 10 Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Dola Maize Meal 10 Kg.jpg",
+            "description": "Premium dola maize meal 10 kg available in various sizes.",
+            "searchTerms": "dola maize meal 10 kg dola maize meal 10 kg.jpg"
+        },
+        {
+            "id": "section_b_Famila Pure Wimbi 500 g",
+            "name": "Famila Pure Wimbi 500 G",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Famila Pure Wimbi 500 g.jpg",
+            "description": "Premium famila pure wimbi 500 g available in various sizes.",
+            "searchTerms": "famila pure wimbi 500 g famila pure wimbi 500 g.jpg"
+        },
+        {
+            "id": "section_b_Famila Uji Mix 1Kg",
+            "name": "Famila Uji Mix 1Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Famila Uji Mix 1Kg.jpg",
+            "description": "Premium famila uji mix 1kg available in various sizes.",
+            "searchTerms": "famila uji mix 1kg famila uji mix 1kg.jpg"
+        },
+        {
+            "id": "section_b_Indomie Instant Noodles 85g Pack Of 5",
+            "name": "Indomie Instant Noodles 85g Pack Of 5",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Indomie Instant Noodles 85g Pack Of 5.jpg",
+            "description": "Premium indomie instant noodles 85g pack of 5 available in various sizes.",
+            "searchTerms": "indomie instant noodles 85g pack of 5 indomie instant noodles 85g pack of 5.jpg"
+        },
+        {
+            "id": "section_b_Joymax Maize Flour 2Kg",
+            "name": "Joymax Maize Flour 2Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Joymax Maize Flour 2Kg.jpg",
+            "description": "Premium joymax maize flour 2kg available in various sizes.",
+            "searchTerms": "joymax maize flour 2kg joymax maize flour 2kg.jpg"
+        },
+        {
+            "id": "section_b_Kabras Packed Sugar White 1Kg",
+            "name": "Kabras Packed Sugar White 1Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Kabras Packed Sugar White 1Kg.jpg",
+            "description": "Premium kabras packed sugar white 1kg available in various sizes.",
+            "searchTerms": "kabras packed sugar white 1kg kabras packed sugar white 1kg.jpg"
+        },
+        {
+            "id": "section_b_Masterchef All Purpose Flour 2Kg",
+            "name": "Masterchef All Purpose Flour 2Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Masterchef All Purpose Flour 2Kg.jpg",
+            "description": "Premium masterchef all purpose flour 2kg available in various sizes.",
+            "searchTerms": "masterchef all purpose flour 2kg masterchef all purpose flour 2kg.jpg"
+        },
+        {
+            "id": "section_b_Mumias Sugar Packed 1 kg",
+            "name": "Mumias Sugar Packed 1 Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Mumias Sugar Packed 1 kg.jpg",
+            "description": "Premium mumias sugar packed 1 kg available in various sizes.",
+            "searchTerms": "mumias sugar packed 1 kg mumias sugar packed 1 kg.jpg"
+        },
+        {
+            "id": "section_b_Mumias Sugar Packed 2 kg",
+            "name": "Mumias Sugar Packed 2 Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Mumias Sugar Packed 2 kg.jpg",
+            "description": "Premium mumias sugar packed 2 kg available in various sizes.",
+            "searchTerms": "mumias sugar packed 2 kg mumias sugar packed 2 kg.jpg"
+        },
+        {
+            "id": "section_b_Numi Noodles Piri-Piri Chicken 120g",
+            "name": "Numi Noodles Piri Piri Chicken 120g",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Numi Noodles Piri-Piri Chicken 120g.jpeg",
+            "description": "Premium numi noodles piri piri chicken 120g available in various sizes.",
+            "searchTerms": "numi noodles piri piri chicken 120g numi noodles piri-piri chicken 120g.jpeg"
+        },
+        {
+            "id": "section_b_Raha Premium Maize Meal 2Kg",
+            "name": "Raha Premium Maize Meal 2Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Raha Premium Maize Meal 2Kg.jpg",
+            "description": "Premium raha premium maize meal 2kg available in various sizes.",
+            "searchTerms": "raha premium maize meal 2kg raha premium maize meal 2kg.jpg"
+        },
+        {
+            "id": "section_b_Ranee Spaghetti Premium 400 g",
+            "name": "Ranee Spaghetti Premium 400 G",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Ranee Spaghetti Premium 400 g.jpg",
+            "description": "Premium ranee spaghetti premium 400 g available in various sizes.",
+            "searchTerms": "ranee spaghetti premium 400 g ranee spaghetti premium 400 g.jpg"
+        },
+        {
+            "id": "section_b_Santa Maria Spaghetti 400 g Promo Pack",
+            "name": "Santa Maria Spaghetti 400 G Promo Pack",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Santa Maria Spaghetti 400 g Promo Pack.jpeg",
+            "description": "Premium santa maria spaghetti 400 g promo pack available in various sizes.",
+            "searchTerms": "santa maria spaghetti 400 g promo pack santa maria spaghetti 400 g promo pack.jpeg"
+        },
+        {
+            "id": "section_b_Soko Nutri Wholegrain Maize Meal 2 Kg",
+            "name": "Soko Nutri Wholegrain Maize Meal 2 Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Soko Nutri Wholegrain Maize Meal 2 Kg.jpg",
+            "description": "Premium soko nutri wholegrain maize meal 2 kg available in various sizes.",
+            "searchTerms": "soko nutri wholegrain maize meal 2 kg soko nutri wholegrain maize meal 2 kg.jpg"
+        },
+        {
+            "id": "section_b_Soko Pure Wimbi 1Kg",
+            "name": "Soko Pure Wimbi 1Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Soko Pure Wimbi 1Kg.jpg",
+            "description": "Premium soko pure wimbi 1kg available in various sizes.",
+            "searchTerms": "soko pure wimbi 1kg soko pure wimbi 1kg.jpg"
+        },
+        {
+            "id": "section_b_Sunrice Pishori Rice 5Kg",
+            "name": "Sunrice Pishori Rice 5Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Sunrice Pishori Rice 5Kg.png",
+            "description": "Premium sunrice pishori rice 5kg available in various sizes.",
+            "searchTerms": "sunrice pishori rice 5kg sunrice pishori rice 5kg.png"
+        },
+        {
+            "id": "section_b_Tupike Maize Meal 2Kg",
+            "name": "Tupike Maize Meal 2Kg",
+            "category": "section_b",
+            "image": "asset\/products\/section_b\/Tupike Maize Meal 2Kg.jpg",
+            "description": "Premium tupike maize meal 2kg available in various sizes.",
+            "searchTerms": "tupike maize meal 2kg tupike maize meal 2kg.jpg"
+        },
+        {
+            "id": "section_c_Axion Dish Washing Paste Lemon 400g",
+            "name": "Axion Dish Washing Paste Lemon 400g",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Axion Dish Washing Paste Lemon 400g.jpg",
+            "description": "Premium axion dish washing paste lemon 400g available in various sizes.",
+            "searchTerms": "axion dish washing paste lemon 400g axion dish washing paste lemon 400g.jpg"
+        },
+        {
+            "id": "section_c_Clorox Bleach Original 1L",
+            "name": "Clorox Bleach Original 1L",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Clorox Bleach Original 1L.jpg",
+            "description": "Premium clorox bleach original 1l available in various sizes.",
+            "searchTerms": "clorox bleach original 1l clorox bleach original 1l.jpg"
+        },
+        {
+            "id": "section_c_Downy Lavender Calm Fabric 900Ml",
+            "name": "Downy Lavender Calm Fabric 900Ml",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Downy Lavender Calm Fabric 900Ml.png",
+            "description": "Premium downy lavender calm fabric 900ml available in various sizes.",
+            "searchTerms": "downy lavender calm fabric 900ml downy lavender calm fabric 900ml.png"
+        },
+        {
+            "id": "section_c_Downy Sunrise Fresh Fabric 900Ml",
+            "name": "Downy Sunrise Fresh Fabric 900Ml",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Downy Sunrise Fresh Fabric 900Ml.png",
+            "description": "Premium downy sunrise fresh fabric 900ml available in various sizes.",
+            "searchTerms": "downy sunrise fresh fabric 900ml downy sunrise fresh fabric 900ml.png"
+        },
+        {
+            "id": "section_c_Harpic Bathroom Lemon 500ml",
+            "name": "Harpic Bathroom Lemon 500ml",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Harpic Bathroom Lemon 500ml.jpg",
+            "description": "Premium harpic bathroom lemon 500ml available in various sizes.",
+            "searchTerms": "harpic bathroom lemon 500ml harpic bathroom lemon 500ml.jpg"
+        },
+        {
+            "id": "section_c_Harpic Power Plus Lavender 1L",
+            "name": "Harpic Power Plus Lavender 1L",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Harpic Power Plus Lavender 1L.jpg",
+            "description": "Premium harpic power plus lavender 1l available in various sizes.",
+            "searchTerms": "harpic power plus lavender 1l harpic power plus lavender 1l.jpg"
+        },
+        {
+            "id": "section_c_Jik Colours 1.5Ltr",
+            "name": "Jik Colours 1.5Ltr",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Jik Colours 1.5Ltr.jpg",
+            "description": "Premium jik colours 1.5ltr available in various sizes.",
+            "searchTerms": "jik colours 1.5ltr jik colours 1.5ltr.jpg"
+        },
+        {
+            "id": "section_c_Kleesoft Anti-Bacterial 1Kg",
+            "name": "Kleesoft Anti Bacterial 1Kg",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Kleesoft Anti-Bacterial 1Kg.jpg",
+            "description": "Premium kleesoft anti bacterial 1kg available in various sizes.",
+            "searchTerms": "kleesoft anti bacterial 1kg kleesoft anti-bacterial 1kg.jpg"
+        },
+        {
+            "id": "section_c_Morning Fresh Antibacterial Paste 800G",
+            "name": "Morning Fresh Antibacterial Paste 800G",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Morning Fresh Antibacterial Paste 800G.jpg",
+            "description": "Premium morning fresh antibacterial paste 800g available in various sizes.",
+            "searchTerms": "morning fresh antibacterial paste 800g morning fresh antibacterial paste 800g.jpg"
+        },
+        {
+            "id": "section_c_Morning Fresh Dish Washing Liquid Zesty Lemon 400ml",
+            "name": "Morning Fresh Dish Washing Liquid Zesty Lemon 400ml",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Morning Fresh Dish Washing Liquid Zesty Lemon 400ml.jpg",
+            "description": "Premium morning fresh dish washing liquid zesty lemon 400ml available in various sizes.",
+            "searchTerms": "morning fresh dish washing liquid zesty lemon 400ml morning fresh dish washing liquid zesty lemon 400ml.jpg"
+        },
+        {
+            "id": "section_c_Msafi White Bar Soap 700g",
+            "name": "Msafi White Bar Soap 700g",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Msafi White Bar Soap 700g.jpg",
+            "description": "Premium msafi white bar soap 700g available in various sizes.",
+            "searchTerms": "msafi white bar soap 700g msafi white bar soap 700g.jpg"
+        },
+        {
+            "id": "section_c_Omo Hand Washing Powder Fast Action 1kg",
+            "name": "Omo Hand Washing Powder Fast Action 1kg",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Omo Hand Washing Powder Fast Action 1kg.jpg",
+            "description": "Premium omo hand washing powder fast action 1kg available in various sizes.",
+            "searchTerms": "omo hand washing powder fast action 1kg omo hand washing powder fast action 1kg.jpg"
+        },
+        {
+            "id": "section_c_Persil Hand Wash Detergent Gel 1L",
+            "name": "Persil Hand Wash Detergent Gel 1L",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Persil Hand Wash Detergent Gel 1L.jpg",
+            "description": "Premium persil hand wash detergent gel 1l available in various sizes.",
+            "searchTerms": "persil hand wash detergent gel 1l persil hand wash detergent gel 1l.jpg"
+        },
+        {
+            "id": "section_c_Persil Hand Wash Detergent Powder Lavender 3.5Kg",
+            "name": "Persil Hand Wash Detergent Powder Lavender 3.5Kg",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Persil Hand Wash Detergent Powder Lavender 3.5Kg.jpg",
+            "description": "Premium persil hand wash detergent powder lavender 3.5kg available in various sizes.",
+            "searchTerms": "persil hand wash detergent powder lavender 3.5kg persil hand wash detergent powder lavender 3.5kg.jpg"
+        },
+        {
+            "id": "section_c_Persil Hand Wash Powder 2Kg",
+            "name": "Persil Hand Wash Powder 2Kg",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Persil Hand Wash Powder 2Kg.jpg",
+            "description": "Premium persil hand wash powder 2kg available in various sizes.",
+            "searchTerms": "persil hand wash powder 2kg persil hand wash powder 2kg.jpg"
+        },
+        {
+            "id": "section_c_Pride Liquid Detergent 1L",
+            "name": "Pride Liquid Detergent 1L",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Pride Liquid Detergent 1L.jpg",
+            "description": "Premium pride liquid detergent 1l available in various sizes.",
+            "searchTerms": "pride liquid detergent 1l pride liquid detergent 1l.jpg"
+        },
+        {
+            "id": "section_c_Safisha Toilet Blocks Ocean Bre.4-50G",
+            "name": "Safisha Toilet Blocks Ocean Bre.4 50G",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Safisha Toilet Blocks Ocean Bre.4-50G.jpg",
+            "description": "Premium safisha toilet blocks ocean bre.4 50g available in various sizes.",
+            "searchTerms": "safisha toilet blocks ocean bre.4 50g safisha toilet blocks ocean bre.4-50g.jpg"
+        },
+        {
+            "id": "section_c_Sokoni Steel Wool 15-20gm",
+            "name": "Sokoni Steel Wool 15 20gm",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Sokoni Steel Wool 15-20gm.jpg",
+            "description": "Premium sokoni steel wool 15 20gm available in various sizes.",
+            "searchTerms": "sokoni steel wool 15 20gm sokoni steel wool 15-20gm.jpg"
+        },
+        {
+            "id": "section_c_Sta-Soft Ultra Ocean Fresh 1Ltr",
+            "name": "Sta Soft Ultra Ocean Fresh 1Ltr",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Sta-Soft Ultra Ocean Fresh 1Ltr.jpg",
+            "description": "Premium sta soft ultra ocean fresh 1ltr available in various sizes.",
+            "searchTerms": "sta soft ultra ocean fresh 1ltr sta-soft ultra ocean fresh 1ltr.jpg"
+        },
+        {
+            "id": "section_c_Sunlight 2 in 1 Hand washing Powder Tropical Sensations 1kg",
+            "name": "Sunlight 2 In 1 Hand Washing Powder Tropical Sensations 1kg",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Sunlight 2 in 1 Hand washing Powder Tropical Sensations 1kg.jpg",
+            "description": "Premium sunlight 2 in 1 hand washing powder tropical sensations 1kg available in various sizes.",
+            "searchTerms": "sunlight 2 in 1 hand washing powder tropical sensations 1kg sunlight 2 in 1 hand washing powder tropical sensations 1kg.jpg"
+        },
+        {
+            "id": "section_c_Sunlight Dish Washing Liquid Antibacterial 750Ml",
+            "name": "Sunlight Dish Washing Liquid Antibacterial 750Ml",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Sunlight Dish Washing Liquid Antibacterial 750Ml.jpg",
+            "description": "Premium sunlight dish washing liquid antibacterial 750ml available in various sizes.",
+            "searchTerms": "sunlight dish washing liquid antibacterial 750ml sunlight dish washing liquid antibacterial 750ml.jpg"
+        },
+        {
+            "id": "section_c_Toss Lavender Detergent Powder 1Kg Plastic",
+            "name": "Toss Lavender Detergent Powder 1Kg Plastic",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Toss Lavender Detergent Powder 1Kg Plastic.jpg",
+            "description": "Premium toss lavender detergent powder 1kg plastic available in various sizes.",
+            "searchTerms": "toss lavender detergent powder 1kg plastic toss lavender detergent powder 1kg plastic.jpg"
+        },
+        {
+            "id": "section_c_Ushindi Cream Bar Soap 1Kg",
+            "name": "Ushindi Cream Bar Soap 1Kg",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Ushindi Cream Bar Soap 1Kg.jpg",
+            "description": "Premium ushindi cream bar soap 1kg available in various sizes.",
+            "searchTerms": "ushindi cream bar soap 1kg ushindi cream bar soap 1kg.jpg"
+        },
+        {
+            "id": "section_c_Velvex Multi Purpose Detergent 5L",
+            "name": "Velvex Multi Purpose Detergent 5L",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Velvex Multi Purpose Detergent 5L.jpg",
+            "description": "Premium velvex multi purpose detergent 5l available in various sizes.",
+            "searchTerms": "velvex multi purpose detergent 5l velvex multi purpose detergent 5l.jpg"
+        },
+        {
+            "id": "section_c_Vim Bleach Powder 1Kg",
+            "name": "Vim Bleach Powder 1Kg",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Vim Bleach Powder 1Kg.jpg",
+            "description": "Premium vim bleach powder 1kg available in various sizes.",
+            "searchTerms": "vim bleach powder 1kg vim bleach powder 1kg.jpg"
+        },
+        {
+            "id": "section_c_White Star Washing Bar Soap Multi Purpose 1Kg",
+            "name": "White Star Washing Bar Soap Multi Purpose 1Kg",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/White Star Washing Bar Soap Multi Purpose 1Kg.jpg",
+            "description": "Premium white star washing bar soap multi purpose 1kg available in various sizes.",
+            "searchTerms": "white star washing bar soap multi purpose 1kg white star washing bar soap multi purpose 1kg.jpg"
+        },
+        {
+            "id": "section_c_Zenta Cream Bar Soap 800G",
+            "name": "Zenta Cream Bar Soap 800G",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Zenta Cream Bar Soap 800G.jpg",
+            "description": "Premium zenta cream bar soap 800g available in various sizes.",
+            "searchTerms": "zenta cream bar soap 800g zenta cream bar soap 800g.jpg"
+        },
+        {
+            "id": "section_c_Zenta Soap White 700g",
+            "name": "Zenta Soap White 700g",
+            "category": "section_c",
+            "image": "asset\/products\/section_c\/Zenta Soap White 700g.jpg",
+            "description": "Premium zenta soap white 700g available in various sizes.",
+            "searchTerms": "zenta soap white 700g zenta soap white 700g.jpg"
+        },
+        {
+            "id": "section_d_Alpro Almond Unsweetened 1Ltr",
+            "name": "Alpro Almond Unsweetened 1Ltr",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Alpro Almond Unsweetened 1Ltr.jpg",
+            "description": "Premium alpro almond unsweetened 1ltr available in various sizes.",
+            "searchTerms": "alpro almond unsweetened 1ltr alpro almond unsweetened 1ltr.jpg"
+        },
+        {
+            "id": "section_d_Alpro Oat Drink 1L",
+            "name": "Alpro Oat Drink 1L",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Alpro Oat Drink 1L.jpg",
+            "description": "Premium alpro oat drink 1l available in various sizes.",
+            "searchTerms": "alpro oat drink 1l alpro oat drink 1l.jpg"
+        },
+        {
+            "id": "section_d_Alpro Soya Wholebean Milk Unsweetened Red 1L",
+            "name": "Alpro Soya Wholebean Milk Unsweetened Red 1L",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Alpro Soya Wholebean Milk Unsweetened Red 1L.jpg",
+            "description": "Premium alpro soya wholebean milk unsweetened red 1l available in various sizes.",
+            "searchTerms": "alpro soya wholebean milk unsweetened red 1l alpro soya wholebean milk unsweetened red 1l.jpg"
+        },
+        {
+            "id": "section_d_Amazon Evaporated Milk 410G",
+            "name": "Amazon Evaporated Milk 410G",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Amazon Evaporated Milk 410G.jpg",
+            "description": "Premium amazon evaporated milk 410g available in various sizes.",
+            "searchTerms": "amazon evaporated milk 410g amazon evaporated milk 410g.jpg"
+        },
+        {
+            "id": "section_d_Bio Butter Salted 500G",
+            "name": "Bio Butter Salted 500G",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Bio Butter Salted 500G.jpg",
+            "description": "Premium bio butter salted 500g available in various sizes.",
+            "searchTerms": "bio butter salted 500g bio butter salted 500g.jpg"
+        },
+        {
+            "id": "section_d_Bio Vanilla Yoghurt 90Ml",
+            "name": "Bio Vanilla Yoghurt 90Ml",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Bio Vanilla Yoghurt 90Ml.jpg",
+            "description": "Premium bio vanilla yoghurt 90ml available in various sizes.",
+            "searchTerms": "bio vanilla yoghurt 90ml bio vanilla yoghurt 90ml.jpg"
+        },
+        {
+            "id": "section_d_Brookside Bubble Gum 250Ml",
+            "name": "Brookside Bubble Gum 250Ml",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Brookside Bubble Gum 250Ml.jpg",
+            "description": "Premium brookside bubble gum 250ml available in various sizes.",
+            "searchTerms": "brookside bubble gum 250ml brookside bubble gum 250ml.jpg"
+        },
+        {
+            "id": "section_d_Brookside Chocolate 250Ml 6Pac",
+            "name": "Brookside Chocolate 250Ml 6Pac",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Brookside Chocolate 250Ml 6Pac.jpg",
+            "description": "Premium brookside chocolate 250ml 6pac available in various sizes.",
+            "searchTerms": "brookside chocolate 250ml 6pac brookside chocolate 250ml 6pac.jpg"
+        },
+        {
+            "id": "section_d_Brookside Coffee 250Ml 6Pack",
+            "name": "Brookside Coffee 250Ml 6Pack",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Brookside Coffee 250Ml 6Pack.jpg",
+            "description": "Premium brookside coffee 250ml 6pack available in various sizes.",
+            "searchTerms": "brookside coffee 250ml 6pack brookside coffee 250ml 6pack.jpg"
+        },
+        {
+            "id": "section_d_Brookside Dairy Best Milk 500 ml",
+            "name": "Brookside Dairy Best Milk 500 Ml",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Brookside Dairy Best Milk 500 ml.jpg",
+            "description": "Premium brookside dairy best milk 500 ml available in various sizes.",
+            "searchTerms": "brookside dairy best milk 500 ml brookside dairy best milk 500 ml.jpg"
+        },
+        {
+            "id": "section_d_Brookside Fresh Milk 200Ml Tca",
+            "name": "Brookside Fresh Milk 200Ml Tca",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Brookside Fresh Milk 200Ml Tca.jpg",
+            "description": "Premium brookside fresh milk 200ml tca available in various sizes.",
+            "searchTerms": "brookside fresh milk 200ml tca brookside fresh milk 200ml tca.jpg"
+        },
+        {
+            "id": "section_d_Brookside Full Cream Milk Powder 2.5Kg",
+            "name": "Brookside Full Cream Milk Powder 2.5Kg",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Brookside Full Cream Milk Powder 2.5Kg.jpg",
+            "description": "Premium brookside full cream milk powder 2.5kg available in various sizes.",
+            "searchTerms": "brookside full cream milk powder 2.5kg brookside full cream milk powder 2.5kg.jpg"
+        },
+        {
+            "id": "section_d_Brookside Full Cream Milk Powder 400G",
+            "name": "Brookside Full Cream Milk Powder 400G",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Brookside Full Cream Milk Powder 400G.jpg",
+            "description": "Premium brookside full cream milk powder 400g available in various sizes.",
+            "searchTerms": "brookside full cream milk powder 400g brookside full cream milk powder 400g.jpg"
+        },
+        {
+            "id": "section_d_Brookside Fun Fibre Vit A Milk 1L",
+            "name": "Brookside Fun Fibre Vit A Milk 1L",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Brookside Fun Fibre Vit A Milk 1L.jpg",
+            "description": "Premium brookside fun fibre vit a milk 1l available in various sizes.",
+            "searchTerms": "brookside fun fibre vit a milk 1l brookside fun fibre vit a milk 1l.jpg"
+        },
+        {
+            "id": "section_d_Brookside Long Life Banana 250Ml",
+            "name": "Brookside Long Life Banana 250Ml",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Brookside Long Life Banana 250Ml.jpg",
+            "description": "Premium brookside long life banana 250ml available in various sizes.",
+            "searchTerms": "brookside long life banana 250ml brookside long life banana 250ml.jpg"
+        },
+        {
+            "id": "section_d_Brookside Sweet Lala 1L Bottle",
+            "name": "Brookside Sweet Lala 1L Bottle",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Brookside Sweet Lala 1L Bottle.jpg",
+            "description": "Premium brookside sweet lala 1l bottle available in various sizes.",
+            "searchTerms": "brookside sweet lala 1l bottle brookside sweet lala 1l bottle.jpg"
+        },
+        {
+            "id": "section_d_Daima Uht Fino Bora 500 Ml",
+            "name": "Daima Uht Fino Bora 500 Ml",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Daima Uht Fino Bora 500 Ml.jpg",
+            "description": "Premium daima uht fino bora 500 ml available in various sizes.",
+            "searchTerms": "daima uht fino bora 500 ml daima uht fino bora 500 ml.jpg"
+        },
+        {
+            "id": "section_d_Daima Uht TfaFino 500Ml 12",
+            "name": "Daima Uht TfaFino 500Ml 12",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Daima Uht TfaFino 500Ml 12.jpg",
+            "description": "Premium daima uht tfafino 500ml 12 available in various sizes.",
+            "searchTerms": "daima uht tfafino 500ml 12 daima uht tfafino 500ml 12.jpg"
+        },
+        {
+            "id": "section_d_Delamere Orange Honey Yoghurt 250Ml Cup",
+            "name": "Delamere Orange Honey Yoghurt 250Ml Cup",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Delamere Orange Honey Yoghurt 250Ml Cup.jpg",
+            "description": "Premium delamere orange honey yoghurt 250ml cup available in various sizes.",
+            "searchTerms": "delamere orange honey yoghurt 250ml cup delamere orange honey yoghurt 250ml cup.jpg"
+        },
+        {
+            "id": "section_d_Emborg Whipped Cream Spry 250M",
+            "name": "Emborg Whipped Cream Spry 250M",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Emborg Whipped Cream Spry 250M.jpg",
+            "description": "Premium emborg whipped cream spry 250m available in various sizes.",
+            "searchTerms": "emborg whipped cream spry 250m emborg whipped cream spry 250m.jpg"
+        },
+        {
+            "id": "section_d_Everfresh Ghee 500Gm",
+            "name": "Everfresh Ghee 500Gm",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Everfresh Ghee 500Gm.jpg",
+            "description": "Premium everfresh ghee 500gm available in various sizes.",
+            "searchTerms": "everfresh ghee 500gm everfresh ghee 500gm.jpg"
+        },
+        {
+            "id": "section_d_Fresha Aseptic 500Ml Pouch18 Pcs",
+            "name": "Fresha Aseptic 500Ml Pouch18 Pcs",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Fresha Aseptic 500Ml Pouch18 Pcs.jpg",
+            "description": "Premium fresha aseptic 500ml pouch18 pcs available in various sizes.",
+            "searchTerms": "fresha aseptic 500ml pouch18 pcs fresha aseptic 500ml pouch18 pcs.jpg"
+        },
+        {
+            "id": "section_d_Fresha Lala 500Ml Pouch",
+            "name": "Fresha Lala 500Ml Pouch",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Fresha Lala 500Ml Pouch.jpg",
+            "description": "Premium fresha lala 500ml pouch available in various sizes.",
+            "searchTerms": "fresha lala 500ml pouch fresha lala 500ml pouch.jpg"
+        },
+        {
+            "id": "section_d_Fresha Vanilla Yoghurt 1Ltr",
+            "name": "Fresha Vanilla Yoghurt 1Ltr",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Fresha Vanilla Yoghurt 1Ltr.jpg",
+            "description": "Premium fresha vanilla yoghurt 1ltr available in various sizes.",
+            "searchTerms": "fresha vanilla yoghurt 1ltr fresha vanilla yoghurt 1ltr.jpg"
+        },
+        {
+            "id": "section_d_Ilara Fresh Milk 500Ml-Pouch",
+            "name": "Ilara Fresh Milk 500Ml Pouch",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Ilara Fresh Milk 500Ml-Pouch.jpg",
+            "description": "Premium ilara fresh milk 500ml pouch available in various sizes.",
+            "searchTerms": "ilara fresh milk 500ml pouch ilara fresh milk 500ml-pouch.jpg"
+        },
+        {
+            "id": "section_d_Jolly Sour Cream Cup 150Ml",
+            "name": "Jolly Sour Cream Cup 150Ml",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Jolly Sour Cream Cup 150Ml.jpg",
+            "description": "Premium jolly sour cream cup 150ml available in various sizes.",
+            "searchTerms": "jolly sour cream cup 150ml jolly sour cream cup 150ml.jpg"
+        },
+        {
+            "id": "section_d_K.C.C Delit Vanilla Yoghurt 500Ml",
+            "name": "K.C.C Delit Vanilla Yoghurt 500Ml",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/K.C.C Delit Vanilla Yoghurt 500Ml.jpeg",
+            "description": "Premium k.c.c delit vanilla yoghurt 500ml available in various sizes.",
+            "searchTerms": "k.c.c delit vanilla yoghurt 500ml k.c.c delit vanilla yoghurt 500ml.jpeg"
+        },
+        {
+            "id": "section_d_K.C.C Superfine Ghee 500Gm Tin",
+            "name": "K.C.C Superfine Ghee 500Gm Tin",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/K.C.C Superfine Ghee 500Gm Tin.jpeg",
+            "description": "Premium k.c.c superfine ghee 500gm tin available in various sizes.",
+            "searchTerms": "k.c.c superfine ghee 500gm tin k.c.c superfine ghee 500gm tin.jpeg"
+        },
+        {
+            "id": "section_d_Kenya Highlands Milk Powder 250G",
+            "name": "Kenya Highlands Milk Powder 250G",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Kenya Highlands Milk Powder 250G.jpeg",
+            "description": "Premium kenya highlands milk powder 250g available in various sizes.",
+            "searchTerms": "kenya highlands milk powder 250g kenya highlands milk powder 250g.jpeg"
+        },
+        {
+            "id": "section_d_Lato Fino 500Ml Uht 12 Pcs",
+            "name": "Lato Fino 500Ml Uht 12 Pcs",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Lato Fino 500Ml Uht 12 Pcs.jpeg",
+            "description": "Premium lato fino 500ml uht 12 pcs available in various sizes.",
+            "searchTerms": "lato fino 500ml uht 12 pcs lato fino 500ml uht 12 pcs.jpeg"
+        },
+        {
+            "id": "section_d_Miksi Milk Powder 90G Sachet",
+            "name": "Miksi Milk Powder 90G Sachet",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Miksi Milk Powder 90G Sachet.jpeg",
+            "description": "Premium miksi milk powder 90g sachet available in various sizes.",
+            "searchTerms": "miksi milk powder 90g sachet miksi milk powder 90g sachet.jpeg"
+        },
+        {
+            "id": "section_d_Molo Fresh Milk 500Ml Pouch",
+            "name": "Molo Fresh Milk 500Ml Pouch",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Molo Fresh Milk 500Ml Pouch.jpeg",
+            "description": "Premium molo fresh milk 500ml pouch available in various sizes.",
+            "searchTerms": "molo fresh milk 500ml pouch molo fresh milk 500ml pouch.jpeg"
+        },
+        {
+            "id": "section_d_Mt.Kenya Fino 500Ml",
+            "name": "Mt.Kenya Fino 500Ml",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Mt.Kenya Fino 500Ml.jpg",
+            "description": "Premium mt.kenya fino 500ml available in various sizes.",
+            "searchTerms": "mt.kenya fino 500ml mt.kenya fino 500ml.jpg"
+        },
+        {
+            "id": "section_d_Mt.Kenya Prem Tfa Fino Milk 500Ml",
+            "name": "Mt.Kenya Prem Tfa Fino Milk 500Ml",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Mt.Kenya Prem Tfa Fino Milk 500Ml.jpeg",
+            "description": "Premium mt.kenya prem tfa fino milk 500ml available in various sizes.",
+            "searchTerms": "mt.kenya prem tfa fino milk 500ml mt.kenya prem tfa fino milk 500ml.jpeg"
+        },
+        {
+            "id": "section_d_Ooh! Lala Peach Yoghurt 500Ml",
+            "name": "Ooh! Lala Peach Yoghurt 500Ml",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Ooh! Lala Peach Yoghurt 500Ml.jpeg",
+            "description": "Premium ooh! lala peach yoghurt 500ml available in various sizes.",
+            "searchTerms": "ooh! lala peach yoghurt 500ml ooh! lala peach yoghurt 500ml.jpeg"
+        },
+        {
+            "id": "section_d_Royal Vanilla Yoghurt 150Ml Cup",
+            "name": "Royal Vanilla Yoghurt 150Ml Cup",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Royal Vanilla Yoghurt 150Ml Cup.jpg",
+            "description": "Premium royal vanilla yoghurt 150ml cup available in various sizes.",
+            "searchTerms": "royal vanilla yoghurt 150ml cup royal vanilla yoghurt 150ml cup.jpg"
+        },
+        {
+            "id": "section_d_Safariland Full Cream Milk Powder 1Kg",
+            "name": "Safariland Full Cream Milk Powder 1Kg",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Safariland Full Cream Milk Powder 1Kg.jpeg",
+            "description": "Premium safariland full cream milk powder 1kg available in various sizes.",
+            "searchTerms": "safariland full cream milk powder 1kg safariland full cream milk powder 1kg.jpeg"
+        },
+        {
+            "id": "section_d_Skypex Pristine Cooking Cream 1L",
+            "name": "Skypex Pristine Cooking Cream 1L",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Skypex Pristine Cooking Cream 1L.jpeg",
+            "description": "Premium skypex pristine cooking cream 1l available in various sizes.",
+            "searchTerms": "skypex pristine cooking cream 1l skypex pristine cooking cream 1l.jpeg"
+        },
+        {
+            "id": "section_d_Tuzo Strawberry Yoghurt 500Ml",
+            "name": "Tuzo Strawberry Yoghurt 500Ml",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Tuzo Strawberry Yoghurt 500Ml.jpeg",
+            "description": "Premium tuzo strawberry yoghurt 500ml available in various sizes.",
+            "searchTerms": "tuzo strawberry yoghurt 500ml tuzo strawberry yoghurt 500ml.jpeg"
+        },
+        {
+            "id": "section_d_Yeyo Esl 500Ml",
+            "name": "Yeyo Esl 500Ml",
+            "category": "section_d",
+            "image": "asset\/products\/section_d\/Yeyo Esl 500Ml.jpg",
+            "description": "Premium yeyo esl 500ml available in various sizes.",
+            "searchTerms": "yeyo esl 500ml yeyo esl 500ml.jpg"
+        },
+        {
+            "id": "section_e_Acacia KidS RaspBerry Juice 200Ml Pouch",
+            "name": "Acacia KidS RaspBerry Juice 200Ml Pouch",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Acacia KidS RaspBerry Juice 200Ml Pouch.jpg",
+            "description": "Premium acacia kids raspberry juice 200ml pouch available in various sizes.",
+            "searchTerms": "acacia kids raspberry juice 200ml pouch acacia kids raspberry juice 200ml pouch.jpg"
+        },
+        {
+            "id": "section_e_Aquamist Mineral Water 10 Ltr",
+            "name": "Aquamist Mineral Water 10 Ltr",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Aquamist Mineral Water 10 Ltr.jpg",
+            "description": "Premium aquamist mineral water 10 ltr available in various sizes.",
+            "searchTerms": "aquamist mineral water 10 ltr aquamist mineral water 10 ltr.jpg"
+        },
+        {
+            "id": "section_e_Azam Energy Drink 300ml",
+            "name": "Azam Energy Drink 300ml",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Azam Energy Drink 300ml.jpeg",
+            "description": "Premium azam energy drink 300ml available in various sizes.",
+            "searchTerms": "azam energy drink 300ml azam energy drink 300ml.jpeg"
+        },
+        {
+            "id": "section_e_Azam Mango Juice 200ml",
+            "name": "Azam Mango Juice 200ml",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Azam Mango Juice 200ml.jpeg",
+            "description": "Premium azam mango juice 200ml available in various sizes.",
+            "searchTerms": "azam mango juice 200ml azam mango juice 200ml.jpeg"
+        },
+        {
+            "id": "section_e_Baraka Chai Tangawizi (Ginger) Pouch 500g",
+            "name": "Baraka Chai Tangawizi (Ginger) Pouch 500g",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Baraka Chai Tangawizi (Ginger) Pouch 500g.jpeg",
+            "description": "Premium baraka chai tangawizi (ginger) pouch 500g available in various sizes.",
+            "searchTerms": "baraka chai tangawizi (ginger) pouch 500g baraka chai tangawizi (ginger) pouch 500g.jpeg"
+        },
+        {
+            "id": "section_e_Cadbury Cocoa Jar 320g",
+            "name": "Cadbury Cocoa Jar 320g",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Cadbury Cocoa Jar 320g.jpeg",
+            "description": "Premium cadbury cocoa jar 320g available in various sizes.",
+            "searchTerms": "cadbury cocoa jar 320g cadbury cocoa jar 320g.jpeg"
+        },
+        {
+            "id": "section_e_Cadbury Drinking Chocolate 2In1 90g",
+            "name": "Cadbury Drinking Chocolate 2In1 90g",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Cadbury Drinking Chocolate 2In1 90g.jpg",
+            "description": "Premium cadbury drinking chocolate 2in1 90g available in various sizes.",
+            "searchTerms": "cadbury drinking chocolate 2in1 90g cadbury drinking chocolate 2in1 90g.jpg"
+        },
+        {
+            "id": "section_e_Cadbury Hot Cocoa 500g",
+            "name": "Cadbury Hot Cocoa 500g",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Cadbury Hot Cocoa 500g.jpeg",
+            "description": "Premium cadbury hot cocoa 500g available in various sizes.",
+            "searchTerms": "cadbury hot cocoa 500g cadbury hot cocoa 500g.jpeg"
+        },
+        {
+            "id": "section_e_Ceres Apple Juice 1L",
+            "name": "Ceres Apple Juice 1L",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Ceres Apple Juice 1L.jpeg",
+            "description": "Premium ceres apple juice 1l available in various sizes.",
+            "searchTerms": "ceres apple juice 1l ceres apple juice 1l.jpeg"
+        },
+        {
+            "id": "section_e_Clovers Drinking Chocolate Jar 200g",
+            "name": "Clovers Drinking Chocolate Jar 200g",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Clovers Drinking Chocolate Jar 200g.jpeg",
+            "description": "Premium clovers drinking chocolate jar 200g available in various sizes.",
+            "searchTerms": "clovers drinking chocolate jar 200g clovers drinking chocolate jar 200g.jpeg"
+        },
+        {
+            "id": "section_e_Del Monte Juice Blend Peach 1L",
+            "name": "Del Monte Juice Blend Peach 1L",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Del Monte Juice Blend Peach 1L.jpg",
+            "description": "Premium del monte juice blend peach 1l available in various sizes.",
+            "searchTerms": "del monte juice blend peach 1l del monte juice blend peach 1l.jpg"
+        },
+        {
+            "id": "section_e_Dormans Coffee House Fine 250G",
+            "name": "Dormans Coffee House Fine 250G",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Dormans Coffee House Fine 250G.jpeg",
+            "description": "Premium dormans coffee house fine 250g available in various sizes.",
+            "searchTerms": "dormans coffee house fine 250g dormans coffee house fine 250g.jpeg"
+        },
+        {
+            "id": "section_e_Eden Premium Tea Leaves 250G",
+            "name": "Eden Premium Tea Leaves 250G",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Eden Premium Tea Leaves 250G.jpg",
+            "description": "Premium eden premium tea leaves 250g available in various sizes.",
+            "searchTerms": "eden premium tea leaves 250g eden premium tea leaves 250g.jpg"
+        },
+        {
+            "id": "section_e_Excel Pure Glucose 100g",
+            "name": "Excel Pure Glucose 100g",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Excel Pure Glucose 100g.jpeg",
+            "description": "Premium excel pure glucose 100g available in various sizes.",
+            "searchTerms": "excel pure glucose 100g excel pure glucose 100g.jpeg"
+        },
+        {
+            "id": "section_e_Kericho Gold Straw Berry Melon Mint Tea bag 12S 30G",
+            "name": "Kericho Gold Straw Berry Melon Mint Tea Bag 12S 30G",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Kericho Gold Straw Berry Melon Mint Tea bag 12S 30G.jpeg",
+            "description": "Premium kericho gold straw berry melon mint tea bag 12s 30g available in various sizes.",
+            "searchTerms": "kericho gold straw berry melon mint tea bag 12s 30g kericho gold straw berry melon mint tea bag 12s 30g.jpeg"
+        },
+        {
+            "id": "section_e_Kericho Gold String & Tag Tea 50g 25 Bags",
+            "name": "Kericho Gold String & Tag Tea 50g 25 Bags",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Kericho Gold String & Tag Tea 50g 25 Bags.jpeg",
+            "description": "Premium kericho gold string & tag tea 50g 25 bags available in various sizes.",
+            "searchTerms": "kericho gold string & tag tea 50g 25 bags kericho gold string & tag tea 50g 25 bags.jpeg"
+        },
+        {
+            "id": "section_e_Minute Maid Delight Pet Pre-Pack 4x1Lt",
+            "name": "Minute Maid Delight Pet Pre Pack 4x1Lt",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Minute Maid Delight Pet Pre-Pack 4x1Lt.jpeg",
+            "description": "Premium minute maid delight pet pre pack 4x1lt available in various sizes.",
+            "searchTerms": "minute maid delight pet pre pack 4x1lt minute maid delight pet pre-pack 4x1lt.jpeg"
+        },
+        {
+            "id": "section_e_Nescafe Blend & Brew 28x19g",
+            "name": "Nescafe Blend & Brew 28x19g",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Nescafe Blend & Brew 28x19g.jpeg",
+            "description": "Premium nescafe blend & brew 28x19g available in various sizes.",
+            "searchTerms": "nescafe blend & brew 28x19g nescafe blend & brew 28x19g.jpeg"
+        },
+        {
+            "id": "section_e_Nescafe Classic Jar 100g",
+            "name": "Nescafe Classic Jar 100g",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Nescafe Classic Jar 100g.jpg",
+            "description": "Premium nescafe classic jar 100g available in various sizes.",
+            "searchTerms": "nescafe classic jar 100g nescafe classic jar 100g.jpg"
+        },
+        {
+            "id": "section_e_Nescafe Classic Satchet 1.6g",
+            "name": "Nescafe Classic Satchet 1.6g",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Nescafe Classic Satchet 1.6g.jpg",
+            "description": "Premium nescafe classic satchet 1.6g available in various sizes.",
+            "searchTerms": "nescafe classic satchet 1.6g nescafe classic satchet 1.6g.jpg"
+        },
+        {
+            "id": "section_e_Orchid Valley Delight Apple 1L",
+            "name": "Orchid Valley Delight Apple 1L",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Orchid Valley Delight Apple 1L.jpeg",
+            "description": "Premium orchid valley delight apple 1l available in various sizes.",
+            "searchTerms": "orchid valley delight apple 1l orchid valley delight apple 1l.jpeg"
+        },
+        {
+            "id": "section_e_Pep Fruit Cocktail Drink 2L",
+            "name": "Pep Fruit Cocktail Drink 2L",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Pep Fruit Cocktail Drink 2L.jpeg",
+            "description": "Premium pep fruit cocktail drink 2l available in various sizes.",
+            "searchTerms": "pep fruit cocktail drink 2l pep fruit cocktail drink 2l.jpeg"
+        },
+        {
+            "id": "section_e_Pep Lime Juice Cordial 1.5L",
+            "name": "Pep Lime Juice Cordial 1.5L",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Pep Lime Juice Cordial 1.5L.jpeg",
+            "description": "Premium pep lime juice cordial 1.5l available in various sizes.",
+            "searchTerms": "pep lime juice cordial 1.5l pep lime juice cordial 1.5l.jpeg"
+        },
+        {
+            "id": "section_e_Red Bull Energy Drink 4 Pack",
+            "name": "Red Bull Energy Drink 4 Pack",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Red Bull Energy Drink 4 Pack.jpg",
+            "description": "Premium red bull energy drink 4 pack available in various sizes.",
+            "searchTerms": "red bull energy drink 4 pack red bull energy drink 4 pack.jpg"
+        },
+        {
+            "id": "section_e_Ribena Cordial Juice  Pet 500Ml",
+            "name": "Ribena Cordial Juice  Pet 500Ml",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Ribena Cordial Juice  Pet 500Ml.jpeg",
+            "description": "Premium ribena cordial juice  pet 500ml available in various sizes.",
+            "searchTerms": "ribena cordial juice  pet 500ml ribena cordial juice  pet 500ml.jpeg"
+        },
+        {
+            "id": "section_e_Savanah Punch Drink 2L",
+            "name": "Savanah Punch Drink 2L",
+            "category": "section_e",
+            "image": "asset\/products\/section_e\/Savanah Punch Drink 2L.jpeg",
+            "description": "Premium savanah punch drink 2l available in various sizes.",
+            "searchTerms": "savanah punch drink 2l savanah punch drink 2l.jpeg"
+        },
+        {
+            "id": "section_f_Always Soft Maxi Thick Long 7 Pieces",
+            "name": "Always Soft Maxi Thick Long 7 Pieces",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Always Soft Maxi Thick Long 7 Pieces.jpg",
+            "description": "Premium always soft maxi thick long 7 pieces available in various sizes.",
+            "searchTerms": "always soft maxi thick long 7 pieces always soft maxi thick long 7 pieces.jpg"
+        },
+        {
+            "id": "section_f_ArimiS Milking Jelly 200g",
+            "name": "ArimiS Milking Jelly 200g",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/ArimiS Milking Jelly 200g.jpg",
+            "description": "Premium arimis milking jelly 200g available in various sizes.",
+            "searchTerms": "arimis milking jelly 200g arimis milking jelly 200g.jpg"
+        },
+        {
+            "id": "section_f_Avitron Surgical Spirit 125ml",
+            "name": "Avitron Surgical Spirit 125ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Avitron Surgical Spirit 125ml.jpg",
+            "description": "Premium avitron surgical spirit 125ml available in various sizes.",
+            "searchTerms": "avitron surgical spirit 125ml avitron surgical spirit 125ml.jpg"
+        },
+        {
+            "id": "section_f_Bella White Toilet Paper 2 Ply 8 Rolls",
+            "name": "Bella White Toilet Paper 2 Ply 8 Rolls",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Bella White Toilet Paper 2 Ply 8 Rolls.jpg",
+            "description": "Premium bella white toilet paper 2 ply 8 rolls available in various sizes.",
+            "searchTerms": "bella white toilet paper 2 ply 8 rolls bella white toilet paper 2 ply 8 rolls.jpg"
+        },
+        {
+            "id": "section_f_Blue King Liquid Hand wash Herbal 500 ml",
+            "name": "Blue King Liquid Hand Wash Herbal 500 Ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Blue King Liquid Hand wash Herbal 500 ml.jpg",
+            "description": "Premium blue king liquid hand wash herbal 500 ml available in various sizes.",
+            "searchTerms": "blue king liquid hand wash herbal 500 ml blue king liquid hand wash herbal 500 ml.jpg"
+        },
+        {
+            "id": "section_f_Colgate Double Action Toothbrush 4 Pack",
+            "name": "Colgate Double Action Toothbrush 4 Pack",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Colgate Double Action Toothbrush 4 Pack.jpg",
+            "description": "Premium colgate double action toothbrush 4 pack available in various sizes.",
+            "searchTerms": "colgate double action toothbrush 4 pack colgate double action toothbrush 4 pack.jpg"
+        },
+        {
+            "id": "section_f_Colgate Plax Soft Mint 250ml",
+            "name": "Colgate Plax Soft Mint 250ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Colgate Plax Soft Mint 250ml.jpg",
+            "description": "Premium colgate plax soft mint 250ml available in various sizes.",
+            "searchTerms": "colgate plax soft mint 250ml colgate plax soft mint 250ml.jpg"
+        },
+        {
+            "id": "section_f_Colgate Triple Action Toothpaste 140g",
+            "name": "Colgate Triple Action Toothpaste 140g",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Colgate Triple Action Toothpaste 140g.jpg",
+            "description": "Premium colgate triple action toothpaste 140g available in various sizes.",
+            "searchTerms": "colgate triple action toothpaste 140g colgate triple action toothpaste 140g.jpg"
+        },
+        {
+            "id": "section_f_Dettol Anti-Bacterial Soap Herbal 90 g 6 Pieces",
+            "name": "Dettol Anti Bacterial Soap Herbal 90 G 6 Pieces",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Dettol Anti-Bacterial Soap Herbal 90 g 6 Pieces.jpg",
+            "description": "Premium dettol anti bacterial soap herbal 90 g 6 pieces available in various sizes.",
+            "searchTerms": "dettol anti bacterial soap herbal 90 g 6 pieces dettol anti-bacterial soap herbal 90 g 6 pieces.jpg"
+        },
+        {
+            "id": "section_f_Dettol Antiseptic Disinfectant 125ml",
+            "name": "Dettol Antiseptic Disinfectant 125ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Dettol Antiseptic Disinfectant 125ml.jpg",
+            "description": "Premium dettol antiseptic disinfectant 125ml available in various sizes.",
+            "searchTerms": "dettol antiseptic disinfectant 125ml dettol antiseptic disinfectant 125ml.jpg"
+        },
+        {
+            "id": "section_f_Dettol Instant Hand Sanitiser Original 50ml",
+            "name": "Dettol Instant Hand Sanitiser Original 50ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Dettol Instant Hand Sanitiser Original 50ml.jpg",
+            "description": "Premium dettol instant hand sanitiser original 50ml available in various sizes.",
+            "searchTerms": "dettol instant hand sanitiser original 50ml dettol instant hand sanitiser original 50ml.jpg"
+        },
+        {
+            "id": "section_f_Durex Fetherlite Ultra 3 Condoms",
+            "name": "Durex Fetherlite Ultra 3 Condoms",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Durex Fetherlite Ultra 3 Condoms.jpg",
+            "description": "Premium durex fetherlite ultra 3 condoms available in various sizes.",
+            "searchTerms": "durex fetherlite ultra 3 condoms durex fetherlite ultra 3 condoms.jpg"
+        },
+        {
+            "id": "section_f_Fay Facial Tissues White 50 Sheets",
+            "name": "Fay Facial Tissues White 50 Sheets",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Fay Facial Tissues White 50 Sheets.jpg",
+            "description": "Premium fay facial tissues white 50 sheets available in various sizes.",
+            "searchTerms": "fay facial tissues white 50 sheets fay facial tissues white 50 sheets.jpg"
+        },
+        {
+            "id": "section_f_Geisha Germiguard 2 In 1 Soap Calming Camomile & Vitamin E 125 g",
+            "name": "Geisha Germiguard 2 In 1 Soap Calming Camomile & Vitamin E 125 G",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Geisha Germiguard 2 In 1 Soap Calming Camomile & Vitamin E 125 g.jpg",
+            "description": "Premium geisha germiguard 2 in 1 soap calming camomile & vitamin e 125 g available in various sizes.",
+            "searchTerms": "geisha germiguard 2 in 1 soap calming camomile & vitamin e 125 g geisha germiguard 2 in 1 soap calming camomile & vitamin e 125 g.jpg"
+        },
+        {
+            "id": "section_f_Imperial Leather Soap Men Intense Cool 175 g",
+            "name": "Imperial Leather Soap Men Intense Cool 175 G",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Imperial Leather Soap Men Intense Cool 175 g.jpg",
+            "description": "Premium imperial leather soap men intense cool 175 g available in various sizes.",
+            "searchTerms": "imperial leather soap men intense cool 175 g imperial leather soap men intense cool 175 g.jpg"
+        },
+        {
+            "id": "section_f_Kotex Panty Liners 20S Wrp",
+            "name": "Kotex Panty Liners 20S Wrp",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Kotex Panty Liners 20S Wrp.jpg",
+            "description": "Premium kotex panty liners 20s wrp available in various sizes.",
+            "searchTerms": "kotex panty liners 20s wrp kotex panty liners 20s wrp.jpg"
+        },
+        {
+            "id": "section_f_Luron Organic Aloe Vera Gel 99% 50ml",
+            "name": "Luron Organic Aloe Vera Gel 99% 50ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Luron Organic Aloe Vera Gel 99% 50ml.jpg",
+            "description": "Premium luron organic aloe vera gel 99% 50ml available in various sizes.",
+            "searchTerms": "luron organic aloe vera gel 99% 50ml luron organic aloe vera gel 99% 50ml.jpg"
+        },
+        {
+            "id": "section_f_Nice & Lovely Lotion Avocado 400ml",
+            "name": "Nice & Lovely Lotion Avocado 400ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Nice & Lovely Lotion Avocado 400ml.jpg",
+            "description": "Premium nice & lovely lotion avocado 400ml available in various sizes.",
+            "searchTerms": "nice & lovely lotion avocado 400ml nice & lovely lotion avocado 400ml.jpg"
+        },
+        {
+            "id": "section_f_Panadol Advanced 100 Tablets",
+            "name": "Panadol Advanced 100 Tablets",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Panadol Advanced 100 Tablets.jpg",
+            "description": "Premium panadol advanced 100 tablets available in various sizes.",
+            "searchTerms": "panadol advanced 100 tablets panadol advanced 100 tablets.jpg"
+        },
+        {
+            "id": "section_f_Rexona Women Antiperspirant Deodorant Roll On Powder 25ml",
+            "name": "Rexona Women Antiperspirant Deodorant Roll On Powder 25ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Rexona Women Antiperspirant Deodorant Roll On Powder 25ml.jpg",
+            "description": "Premium rexona women antiperspirant deodorant roll on powder 25ml available in various sizes.",
+            "searchTerms": "rexona women antiperspirant deodorant roll on powder 25ml rexona women antiperspirant deodorant roll on powder 25ml.jpg"
+        },
+        {
+            "id": "section_f_Sensodyne Repair & Protect 75ml",
+            "name": "Sensodyne Repair & Protect 75ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Sensodyne Repair & Protect 75ml.jpeg",
+            "description": "Premium sensodyne repair & protect 75ml available in various sizes.",
+            "searchTerms": "sensodyne repair & protect 75ml sensodyne repair & protect 75ml.jpeg"
+        },
+        {
+            "id": "section_f_Trust Classic 3 Condoms",
+            "name": "Trust Classic 3 Condoms",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Trust Classic 3 Condoms.jpg",
+            "description": "Premium trust classic 3 condoms available in various sizes.",
+            "searchTerms": "trust classic 3 condoms trust classic 3 condoms.jpg"
+        },
+        {
+            "id": "section_f_Vaseline Pure Petroleum Jelly 240ml",
+            "name": "Vaseline Pure Petroleum Jelly 240ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Vaseline Pure Petroleum Jelly 240ml.jpg",
+            "description": "Premium vaseline pure petroleum jelly 240ml available in various sizes.",
+            "searchTerms": "vaseline pure petroleum jelly 240ml vaseline pure petroleum jelly 240ml.jpg"
+        },
+        {
+            "id": "section_f_Veet Hair Removal Cream Normal Skin 100g",
+            "name": "Veet Hair Removal Cream Normal Skin 100g",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Veet Hair Removal Cream Normal Skin 100g.jpg",
+            "description": "Premium veet hair removal cream normal skin 100g available in various sizes.",
+            "searchTerms": "veet hair removal cream normal skin 100g veet hair removal cream normal skin 100g.jpg"
+        },
+        {
+            "id": "section_f_Velvex Con Panty Liners",
+            "name": "Velvex Con Panty Liners",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Velvex Con Panty Liners.jpg",
+            "description": "Premium velvex con panty liners available in various sizes.",
+            "searchTerms": "velvex con panty liners velvex con panty liners.jpg"
+        },
+        {
+            "id": "section_f_Versman Hydrating & Invigorating Lotion For Men Sporty 200ml",
+            "name": "Versman Hydrating & Invigorating Lotion For Men Sporty 200ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Versman Hydrating & Invigorating Lotion For Men Sporty 200ml.jpg",
+            "description": "Premium versman hydrating & invigorating lotion for men sporty 200ml available in various sizes.",
+            "searchTerms": "versman hydrating & invigorating lotion for men sporty 200ml versman hydrating & invigorating lotion for men sporty 200ml.jpg"
+        },
+        {
+            "id": "section_f_Versman Sporty Pour Homme Edp 100ml",
+            "name": "Versman Sporty Pour Homme Edp 100ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Versman Sporty Pour Homme Edp 100ml.jpg",
+            "description": "Premium versman sporty pour homme edp 100ml available in various sizes.",
+            "searchTerms": "versman sporty pour homme edp 100ml versman sporty pour homme edp 100ml.jpg"
+        },
+        {
+            "id": "section_f_Zoe Naturals Hand & Body Lotion Cocoa Butter 200ml",
+            "name": "Zoe Naturals Hand & Body Lotion Cocoa Butter 200ml",
+            "category": "section_f",
+            "image": "asset\/products\/section_f\/Zoe Naturals Hand & Body Lotion Cocoa Butter 200ml.jpg",
+            "description": "Premium zoe naturals hand & body lotion cocoa butter 200ml available in various sizes.",
+            "searchTerms": "zoe naturals hand & body lotion cocoa butter 200ml zoe naturals hand & body lotion cocoa butter 200ml.jpg"
+        },
+        {
+            "id": "section_g_Amigos Chevda 100g",
+            "name": "Amigos Chevda 100g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Amigos Chevda 100g.jpg",
+            "description": "Premium amigos chevda 100g available in various sizes.",
+            "searchTerms": "amigos chevda 100g amigos chevda 100g.jpg"
+        },
+        {
+            "id": "section_g_Amigos Corn Chips Salt & Vinegar 20g",
+            "name": "Amigos Corn Chips Salt & Vinegar 20g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Amigos Corn Chips Salt & Vinegar 20g.jpg",
+            "description": "Premium amigos corn chips salt & vinegar 20g available in various sizes.",
+            "searchTerms": "amigos corn chips salt & vinegar 20g amigos corn chips salt & vinegar 20g.jpg"
+        },
+        {
+            "id": "section_g_Amigos Potato Crisps Cheese & Onion 200g",
+            "name": "Amigos Potato Crisps Cheese & Onion 200g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Amigos Potato Crisps Cheese & Onion 200g.jpg",
+            "description": "Premium amigos potato crisps cheese & onion 200g available in various sizes.",
+            "searchTerms": "amigos potato crisps cheese & onion 200g amigos potato crisps cheese & onion 200g.jpg"
+        },
+        {
+            "id": "section_g_Cadbury Dairy Milk 110g",
+            "name": "Cadbury Dairy Milk 110g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Cadbury Dairy Milk 110g.jpg",
+            "description": "Premium cadbury dairy milk 110g available in various sizes.",
+            "searchTerms": "cadbury dairy milk 110g cadbury dairy milk 110g.jpg"
+        },
+        {
+            "id": "section_g_Cadbury Dairy Whole Nut 150g",
+            "name": "Cadbury Dairy Whole Nut 150g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Cadbury Dairy Whole Nut 150g.jpg",
+            "description": "Premium cadbury dairy whole nut 150g available in various sizes.",
+            "searchTerms": "cadbury dairy whole nut 150g cadbury dairy whole nut 150g.jpg"
+        },
+        {
+            "id": "section_g_Cadbury Fruit & Nut 80g",
+            "name": "Cadbury Fruit & Nut 80g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Cadbury Fruit & Nut 80g.png",
+            "description": "Premium cadbury fruit & nut 80g available in various sizes.",
+            "searchTerms": "cadbury fruit & nut 80g cadbury fruit & nut 80g.png"
+        },
+        {
+            "id": "section_g_Cadbury Top Deck 80g",
+            "name": "Cadbury Top Deck 80g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Cadbury Top Deck 80g.jpg",
+            "description": "Premium cadbury top deck 80g available in various sizes.",
+            "searchTerms": "cadbury top deck 80g cadbury top deck 80g.jpg"
+        },
+        {
+            "id": "section_g_Confini Assorted Sour Belts 170g",
+            "name": "Confini Assorted Sour Belts 170g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Confini Assorted Sour Belts 170g.png",
+            "description": "Premium confini assorted sour belts 170g available in various sizes.",
+            "searchTerms": "confini assorted sour belts 170g confini assorted sour belts 170g.png"
+        },
+        {
+            "id": "section_g_Dairyland Chocolart White With Cookies 50g",
+            "name": "Dairyland Chocolart White With Cookies 50g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Dairyland Chocolart White With Cookies 50g.jpeg",
+            "description": "Premium dairyland chocolart white with cookies 50g available in various sizes.",
+            "searchTerms": "dairyland chocolart white with cookies 50g dairyland chocolart white with cookies 50g.jpeg"
+        },
+        {
+            "id": "section_g_Deepa Chilli Flakes 75g",
+            "name": "Deepa Chilli Flakes 75g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Deepa Chilli Flakes 75g.jpg",
+            "description": "Premium deepa chilli flakes 75g available in various sizes.",
+            "searchTerms": "deepa chilli flakes 75g deepa chilli flakes 75g.jpg"
+        },
+        {
+            "id": "section_g_DepyS Chevda 400g",
+            "name": "DepyS Chevda 400g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/DepyS Chevda 400g.jpg",
+            "description": "Premium depys chevda 400g available in various sizes.",
+            "searchTerms": "depys chevda 400g depys chevda 400g.jpg"
+        },
+        {
+            "id": "section_g_DepyS Fried Peanuts 200g",
+            "name": "DepyS Fried Peanuts 200g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/DepyS Fried Peanuts 200g.jpg",
+            "description": "Premium depys fried peanuts 200g available in various sizes.",
+            "searchTerms": "depys fried peanuts 200g depys fried peanuts 200g.jpg"
+        },
+        {
+            "id": "section_g_DepyS Peanuts Roasted 400g",
+            "name": "DepyS Peanuts Roasted 400g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/DepyS Peanuts Roasted 400g.jpeg",
+            "description": "Premium depys peanuts roasted 400g available in various sizes.",
+            "searchTerms": "depys peanuts roasted 400g depys peanuts roasted 400g.jpeg"
+        },
+        {
+            "id": "section_g_Docile Maxmallows Hearts Strawberry 50g",
+            "name": "Docile Maxmallows Hearts Strawberry 50g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Docile Maxmallows Hearts Strawberry 50g.jpg",
+            "description": "Premium docile maxmallows hearts strawberry 50g available in various sizes.",
+            "searchTerms": "docile maxmallows hearts strawberry 50g docile maxmallows hearts strawberry 50g.jpg"
+        },
+        {
+            "id": "section_g_Elbbin Multigrain Snacks Chocolate 50g",
+            "name": "Elbbin Multigrain Snacks Chocolate 50g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Elbbin Multigrain Snacks Chocolate 50g.jpg",
+            "description": "Premium elbbin multigrain snacks chocolate 50g available in various sizes.",
+            "searchTerms": "elbbin multigrain snacks chocolate 50g elbbin multigrain snacks chocolate 50g.jpg"
+        },
+        {
+            "id": "section_g_Elbbin Potato Chipsticks Cheese Burger 30g",
+            "name": "Elbbin Potato Chipsticks Cheese Burger 30g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Elbbin Potato Chipsticks Cheese Burger 30g.jpg",
+            "description": "Premium elbbin potato chipsticks cheese burger 30g available in various sizes.",
+            "searchTerms": "elbbin potato chipsticks cheese burger 30g elbbin potato chipsticks cheese burger 30g.jpg"
+        },
+        {
+            "id": "section_g_Ferrero Raffaello 30g",
+            "name": "Ferrero Raffaello 30g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Ferrero Raffaello 30g.jpg",
+            "description": "Premium ferrero raffaello 30g available in various sizes.",
+            "searchTerms": "ferrero raffaello 30g ferrero raffaello 30g.jpg"
+        },
+        {
+            "id": "section_g_Fresh N Crunchy Fried Peanut 200g",
+            "name": "Fresh N Crunchy Fried Peanut 200g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Fresh N Crunchy Fried Peanut 200g.jpg",
+            "description": "Premium fresh n crunchy fried peanut 200g available in various sizes.",
+            "searchTerms": "fresh n crunchy fried peanut 200g fresh n crunchy fried peanut 200g.jpg"
+        },
+        {
+            "id": "section_g_Fresh N Crunchy Simsim Crunchy 160g",
+            "name": "Fresh N Crunchy Simsim Crunchy 160g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Fresh N Crunchy Simsim Crunchy 160g.jpg",
+            "description": "Premium fresh n crunchy simsim crunchy 160g available in various sizes.",
+            "searchTerms": "fresh n crunchy simsim crunchy 160g fresh n crunchy simsim crunchy 160g.jpg"
+        },
+        {
+            "id": "section_g_Hom Barvita Crispbread 200g",
+            "name": "Hom Barvita Crispbread 200g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Hom Barvita Crispbread 200g.jpeg",
+            "description": "Premium hom barvita crispbread 200g available in various sizes.",
+            "searchTerms": "hom barvita crispbread 200g hom barvita crispbread 200g.jpeg"
+        },
+        {
+            "id": "section_g_Jawbreaker Strawberry Candy With Bubble Gum Centre 41.3g 4 Pieces",
+            "name": "Jawbreaker Strawberry Candy With Bubble Gum Centre 41.3g 4 Pieces",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Jawbreaker Strawberry Candy With Bubble Gum Centre 41.3g 4 Pieces.jpg",
+            "description": "Premium jawbreaker strawberry candy with bubble gum centre 41.3g 4 pieces available in various sizes.",
+            "searchTerms": "jawbreaker strawberry candy with bubble gum centre 41.3g 4 pieces jawbreaker strawberry candy with bubble gum centre 41.3g 4 pieces.jpg"
+        },
+        {
+            "id": "section_g_Joy Super Vanilla Cookies 180g",
+            "name": "Joy Super Vanilla Cookies 180g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Joy Super Vanilla Cookies 180g.jpeg",
+            "description": "Premium joy super vanilla cookies 180g available in various sizes.",
+            "searchTerms": "joy super vanilla cookies 180g joy super vanilla cookies 180g.jpeg"
+        },
+        {
+            "id": "section_g_Kinder Joy Girl 20g",
+            "name": "Kinder Joy Girl 20g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Kinder Joy Girl 20g.jpg",
+            "description": "Premium kinder joy girl 20g available in various sizes.",
+            "searchTerms": "kinder joy girl 20g kinder joy girl 20g.jpg"
+        },
+        {
+            "id": "section_g_Kit Kat 41.5g",
+            "name": "Kit Kat 41.5g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Kit Kat 41.5g.png",
+            "description": "Premium kit kat 41.5g available in various sizes.",
+            "searchTerms": "kit kat 41.5g kit kat 41.5g.png"
+        },
+        {
+            "id": "section_g_Krackles Potato Crisps Bar-B-Que 125g",
+            "name": "Krackles Potato Crisps Bar B Que 125g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Krackles Potato Crisps Bar-B-Que 125g.jpg",
+            "description": "Premium krackles potato crisps bar b que 125g available in various sizes.",
+            "searchTerms": "krackles potato crisps bar b que 125g krackles potato crisps bar-b-que 125g.jpg"
+        },
+        {
+            "id": "section_g_Krackles Potato Crisps Zingy Salt & Vinegar 30g",
+            "name": "Krackles Potato Crisps Zingy Salt & Vinegar 30g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Krackles Potato Crisps Zingy Salt & Vinegar 30g.jpg",
+            "description": "Premium krackles potato crisps zingy salt & vinegar 30g available in various sizes.",
+            "searchTerms": "krackles potato crisps zingy salt & vinegar 30g krackles potato crisps zingy salt & vinegar 30g.jpg"
+        },
+        {
+            "id": "section_g_Ksl Happy Cough Drops 100 Pieces",
+            "name": "Ksl Happy Cough Drops 100 Pieces",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Ksl Happy Cough Drops 100 Pieces.jpeg",
+            "description": "Premium ksl happy cough drops 100 pieces available in various sizes.",
+            "searchTerms": "ksl happy cough drops 100 pieces ksl happy cough drops 100 pieces.jpeg"
+        },
+        {
+            "id": "section_g_Ksl Happy Orange 100 Pieces",
+            "name": "Ksl Happy Orange 100 Pieces",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Ksl Happy Orange 100 Pieces.jpeg",
+            "description": "Premium ksl happy orange 100 pieces available in various sizes.",
+            "searchTerms": "ksl happy orange 100 pieces ksl happy orange 100 pieces.jpeg"
+        },
+        {
+            "id": "section_g_Ksl Orange Drops 1Kg",
+            "name": "Ksl Orange Drops 1Kg",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Ksl Orange Drops 1Kg.jpg",
+            "description": "Premium ksl orange drops 1kg available in various sizes.",
+            "searchTerms": "ksl orange drops 1kg ksl orange drops 1kg.jpg"
+        },
+        {
+            "id": "section_g_Ksl Tropical Mint 150g",
+            "name": "Ksl Tropical Mint 150g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Ksl Tropical Mint 150g.jpg",
+            "description": "Premium ksl tropical mint 150g available in various sizes.",
+            "searchTerms": "ksl tropical mint 150g ksl tropical mint 150g.jpg"
+        },
+        {
+            "id": "section_g_Lotto Butters Cotch Toffee 80Pcs",
+            "name": "Lotto Butters Cotch Toffee 80Pcs",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Lotto Butters Cotch Toffee 80Pcs.jpg",
+            "description": "Premium lotto butters cotch toffee 80pcs available in various sizes.",
+            "searchTerms": "lotto butters cotch toffee 80pcs lotto butters cotch toffee 80pcs.jpg"
+        },
+        {
+            "id": "section_g_M & MS Chocolate 45g",
+            "name": "M & MS Chocolate 45g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/M & MS Chocolate 45g.jpg",
+            "description": "Premium m & ms chocolate 45g available in various sizes.",
+            "searchTerms": "m & ms chocolate 45g m & ms chocolate 45g.jpg"
+        },
+        {
+            "id": "section_g_M & MS Peanut 45g",
+            "name": "M & MS Peanut 45g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/M & MS Peanut 45g.jpg",
+            "description": "Premium m & ms peanut 45g available in various sizes.",
+            "searchTerms": "m & ms peanut 45g m & ms peanut 45g.jpg"
+        },
+        {
+            "id": "section_g_Manji Choco Chip Cookies 500g",
+            "name": "Manji Choco Chip Cookies 500g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Manji Choco Chip Cookies 500g.jpg",
+            "description": "Premium manji choco chip cookies 500g available in various sizes.",
+            "searchTerms": "manji choco chip cookies 500g manji choco chip cookies 500g.jpg"
+        },
+        {
+            "id": "section_g_Manji Chocolate Digestive 150g",
+            "name": "Manji Chocolate Digestive 150g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Manji Chocolate Digestive 150g.jpg",
+            "description": "Premium manji chocolate digestive 150g available in various sizes.",
+            "searchTerms": "manji chocolate digestive 150g manji chocolate digestive 150g.jpg"
+        },
+        {
+            "id": "section_g_Manji Coconut Cookies 500g",
+            "name": "Manji Coconut Cookies 500g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Manji Coconut Cookies 500g.jpg",
+            "description": "Premium manji coconut cookies 500g available in various sizes.",
+            "searchTerms": "manji coconut cookies 500g manji coconut cookies 500g.jpg"
+        },
+        {
+            "id": "section_g_Manji Digestive 200g",
+            "name": "Manji Digestive 200g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Manji Digestive 200g.jpg",
+            "description": "Premium manji digestive 200g available in various sizes.",
+            "searchTerms": "manji digestive 200g manji digestive 200g.jpg"
+        },
+        {
+            "id": "section_g_Manjigingernut 30g Carton",
+            "name": "Manjigingernut 30g Carton",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Manjigingernut 30g Carton.jpg",
+            "description": "Premium manjigingernut 30g carton available in various sizes.",
+            "searchTerms": "manjigingernut 30g carton manjigingernut 30g carton.jpg"
+        },
+        {
+            "id": "section_g_Manjiglucose Biscuit 200g",
+            "name": "Manjiglucose Biscuit 200g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Manjiglucose Biscuit 200g.jpg",
+            "description": "Premium manjiglucose biscuit 200g available in various sizes.",
+            "searchTerms": "manjiglucose biscuit 200g manjiglucose biscuit 200g.jpg"
+        },
+        {
+            "id": "section_g_Mars Miniatures 150g",
+            "name": "Mars Miniatures 150g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Mars Miniatures 150g.jpg",
+            "description": "Premium mars miniatures 150g available in various sizes.",
+            "searchTerms": "mars miniatures 150g mars miniatures 150g.jpg"
+        },
+        {
+            "id": "section_g_McVities Digestive Dark Chocolate 200g",
+            "name": "McVities Digestive Dark Chocolate 200g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/McVities Digestive Dark Chocolate 200g.jpg",
+            "description": "Premium mcvities digestive dark chocolate 200g available in various sizes.",
+            "searchTerms": "mcvities digestive dark chocolate 200g mcvities digestive dark chocolate 200g.jpg"
+        },
+        {
+            "id": "section_g_Mentos Fruit Rolls 37.5g",
+            "name": "Mentos Fruit Rolls 37.5g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Mentos Fruit Rolls 37.5g.jpg",
+            "description": "Premium mentos fruit rolls 37.5g available in various sizes.",
+            "searchTerms": "mentos fruit rolls 37.5g mentos fruit rolls 37.5g.jpg"
+        },
+        {
+            "id": "section_g_Nuvita Digestive Biscuit 1Kg",
+            "name": "Nuvita Digestive Biscuit 1Kg",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Nuvita Digestive Biscuit 1Kg.jpg",
+            "description": "Premium nuvita digestive biscuit 1kg available in various sizes.",
+            "searchTerms": "nuvita digestive biscuit 1kg nuvita digestive biscuit 1kg.jpg"
+        },
+        {
+            "id": "section_g_Nuvita Digestive Biscuits 400g",
+            "name": "Nuvita Digestive Biscuits 400g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Nuvita Digestive Biscuits 400g.jpg",
+            "description": "Premium nuvita digestive biscuits 400g available in various sizes.",
+            "searchTerms": "nuvita digestive biscuits 400g nuvita digestive biscuits 400g.jpg"
+        },
+        {
+            "id": "section_g_Nuvita Nice Biscuit 200g",
+            "name": "Nuvita Nice Biscuit 200g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Nuvita Nice Biscuit 200g.jpg",
+            "description": "Premium nuvita nice biscuit 200g available in various sizes.",
+            "searchTerms": "nuvita nice biscuit 200g nuvita nice biscuit 200g.jpg"
+        },
+        {
+            "id": "section_g_Nuvita Oat Digestive 200g",
+            "name": "Nuvita Oat Digestive 200g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Nuvita Oat Digestive 200g.jpg",
+            "description": "Premium nuvita oat digestive 200g available in various sizes.",
+            "searchTerms": "nuvita oat digestive 200g nuvita oat digestive 200g.jpg"
+        },
+        {
+            "id": "section_g_Nuvita Orange Tea Biscuit 100g",
+            "name": "Nuvita Orange Tea Biscuit 100g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Nuvita Orange Tea Biscuit 100g.jpg",
+            "description": "Premium nuvita orange tea biscuit 100g available in various sizes.",
+            "searchTerms": "nuvita orange tea biscuit 100g nuvita orange tea biscuit 100g.jpg"
+        },
+        {
+            "id": "section_g_Nuvita Secrets Coconut 40g",
+            "name": "Nuvita Secrets Coconut 40g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Nuvita Secrets Coconut 40g.jpg",
+            "description": "Premium nuvita secrets coconut 40g available in various sizes.",
+            "searchTerms": "nuvita secrets coconut 40g nuvita secrets coconut 40g.jpg"
+        },
+        {
+            "id": "section_g_Nuvita Strawberry Cream Wafer 100g",
+            "name": "Nuvita Strawberry Cream Wafer 100g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Nuvita Strawberry Cream Wafer 100g.jpg",
+            "description": "Premium nuvita strawberry cream wafer 100g available in various sizes.",
+            "searchTerms": "nuvita strawberry cream wafer 100g nuvita strawberry cream wafer 100g.jpg"
+        },
+        {
+            "id": "section_g_Oreo Biscuits 57g",
+            "name": "Oreo Biscuits 57g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Oreo Biscuits 57g.jpg",
+            "description": "Premium oreo biscuits 57g available in various sizes.",
+            "searchTerms": "oreo biscuits 57g oreo biscuits 57g.jpg"
+        },
+        {
+            "id": "section_g_P.K Juicy Fruit 10 Pellets",
+            "name": "P.K Juicy Fruit 10 Pellets",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/P.K Juicy Fruit 10 Pellets.jpg",
+            "description": "Premium p.k juicy fruit 10 pellets available in various sizes.",
+            "searchTerms": "p.k juicy fruit 10 pellets p.k juicy fruit 10 pellets.jpg"
+        },
+        {
+            "id": "section_g_P.K Orbit Sweet Mint Otc 10 Pellets",
+            "name": "P.K Orbit Sweet Mint Otc 10 Pellets",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/P.K Orbit Sweet Mint Otc 10 Pellets.jpg",
+            "description": "Premium p.k orbit sweet mint otc 10 pellets available in various sizes.",
+            "searchTerms": "p.k orbit sweet mint otc 10 pellets p.k orbit sweet mint otc 10 pellets.jpg"
+        },
+        {
+            "id": "section_g_Ting Ting Tropical Bubble Gum",
+            "name": "Ting Ting Tropical Bubble Gum",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Ting Ting Tropical Bubble Gum.jpg",
+            "description": "Premium ting ting tropical bubble gum available in various sizes.",
+            "searchTerms": "ting ting tropical bubble gum ting ting tropical bubble gum.jpg"
+        },
+        {
+            "id": "section_g_Trident Senses Rainforest Mint Sugar-Free Gum 14 Pieces",
+            "name": "Trident Senses Rainforest Mint Sugar Free Gum 14 Pieces",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Trident Senses Rainforest Mint Sugar-Free Gum 14 Pieces.jpg",
+            "description": "Premium trident senses rainforest mint sugar free gum 14 pieces available in various sizes.",
+            "searchTerms": "trident senses rainforest mint sugar free gum 14 pieces trident senses rainforest mint sugar-free gum 14 pieces.jpg"
+        },
+        {
+            "id": "section_g_Tropical Heat Potato Crisps Salt & Vinegar 50g",
+            "name": "Tropical Heat Potato Crisps Salt & Vinegar 50g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Tropical Heat Potato Crisps Salt & Vinegar 50g.jpg",
+            "description": "Premium tropical heat potato crisps salt & vinegar 50g available in various sizes.",
+            "searchTerms": "tropical heat potato crisps salt & vinegar 50g tropical heat potato crisps salt & vinegar 50g.jpg"
+        },
+        {
+            "id": "section_g_Tropical Heroes Cheese & Onions Crisps 40 G",
+            "name": "Tropical Heroes Cheese & Onions Crisps 40 G",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Tropical Heroes Cheese & Onions Crisps 40 G.jpg",
+            "description": "Premium tropical heroes cheese & onions crisps 40 g available in various sizes.",
+            "searchTerms": "tropical heroes cheese & onions crisps 40 g tropical heroes cheese & onions crisps 40 g.jpg"
+        },
+        {
+            "id": "section_g_Twix 50g",
+            "name": "Twix 50g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Twix 50g.jpg",
+            "description": "Premium twix 50g available in various sizes.",
+            "searchTerms": "twix 50g twix 50g.jpg"
+        },
+        {
+            "id": "section_g_Urban Bites Trendy Tomato 30g",
+            "name": "Urban Bites Trendy Tomato 30g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Urban Bites Trendy Tomato 30g.png",
+            "description": "Premium urban bites trendy tomato 30g available in various sizes.",
+            "searchTerms": "urban bites trendy tomato 30g urban bites trendy tomato 30g.png"
+        },
+        {
+            "id": "section_g_Wow Salted 20g",
+            "name": "Wow Salted 20g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Wow Salted 20g.jpg",
+            "description": "Premium wow salted 20g available in various sizes.",
+            "searchTerms": "wow salted 20g wow salted 20g.jpg"
+        },
+        {
+            "id": "section_g_Wow Tomato 100g",
+            "name": "Wow Tomato 100g",
+            "category": "section_g",
+            "image": "asset\/products\/section_g\/Wow Tomato 100g.jpg",
+            "description": "Premium wow tomato 100g available in various sizes.",
+            "searchTerms": "wow tomato 100g wow tomato 100g.jpg"
+        }
+    ],
+    "last_updated": "2026-01-18 10:06:22",
+    "total_products": 234
+}
