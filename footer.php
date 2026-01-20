@@ -44,8 +44,8 @@
           </div>
       </div>
 
-      <div class="border-t border-gray-700 mt-12 pt-8 text-center">
-          <p class="text-gray-500 text-sm">&copy; 2024 BEI BORA DISTRIBUTORS LIMITED. All rights reserved.</p>
+      <div class="border-t border-brand-green mt-12 pt-8 text-center">
+          <p class="text-brand-orange text-sm">&copy; 2024 BEI BORA DISTRIBUTORS LIMITED. All rights reserved.</p>
       </div>
   </div>
   

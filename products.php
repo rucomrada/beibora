@@ -137,7 +137,7 @@ include 'header.php';
 </div>
 
 <!-- CTA Section -->
-<section class="py-20 bg-brand-dark relative overflow-hidden">
+<section class="py-20 bg-gradient-to-br from-brand-dark via-brand-green to-brand-dark relative overflow-hidden">
     <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
     <div class="max-w-5xl mx-auto px-4 text-center relative z-10">
         <h2 class="text-3xl md:text-4xl font-heading font-bold text-white mb-6">Need Bulk Quantities?</h2>
